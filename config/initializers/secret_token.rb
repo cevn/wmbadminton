@@ -9,4 +9,19 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-SdharRailswolf::Application.config.secret_key_base = '079d1e9bd4f9c2b0d42148c024df47258fe6383a20feb07c9a1912e6e14a1852667d29e5213bd62159d685edc2e582b0fb73648da44f5561e731dbc980f34e37'
+require 'securerandom'
+
+def secure_token
+  token_file = Rails.root.join('.secret')
+  if File.exist?(token_file)
+    # Use the existing token.
+    File.read(token_file).chomp
+  else
+    # Generate a new token and store it in token_file.
+    token = SecureRandom.hex(64)
+    File.write(token_file, token)
+    token
+  end
+end
+
+SdharRailswolf::Application.config.secret_key_base = secure_token
