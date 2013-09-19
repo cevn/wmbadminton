@@ -13,6 +13,9 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass'
+gem 'faker'
+gem 'will_paginate' 
+gem 'bootstrap-will_paginate'
 
 group :doc do
   gem 'sdoc', require: false
