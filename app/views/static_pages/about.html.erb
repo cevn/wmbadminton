@@ -2,7 +2,17 @@
 <h1>About Us</h1>
 <p>
 This app was made following a rails tutorial. Next on the to-do list: 
+</p>
+
 <ul> 
   <li>JSON i/o</li> 
   <li>leaflet maps / postgres hooks</li> 
-</p>
+  <li>Actual content (this part is tentative)</li> 
+</ul>
+
+<div id="map"><%= map(:center => {
+        :latlng => [51.52238797921441, -0.08366235665359283],
+        :zoom => 18
+      }) %>
+</div> 
+
