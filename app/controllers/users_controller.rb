@@ -9,6 +9,7 @@ class UsersController < ApplicationController
       if params[:callback]
         format.js { render :json => @user, :callback => params[:callback] }
       else
+        format.html
         format.json { render json: @user }
       end
     end
@@ -24,6 +25,7 @@ class UsersController < ApplicationController
       if params[:callback]
         format.js { render :json => @users, :callback => params[:callback] }
       else
+        format.html
         format.json { render json: @users }
       end
     end
