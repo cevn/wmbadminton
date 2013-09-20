@@ -21,7 +21,6 @@ class UsersController < ApplicationController
       format.html
       format.json { render :json => @users }
     end
-
   end
 
   def create

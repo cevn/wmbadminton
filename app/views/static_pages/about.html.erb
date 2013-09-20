@@ -6,13 +6,14 @@ This app was made following a rails tutorial. Next on the to-do list:
 
 <ul> 
   <li>JSON i/o</li> 
+  <ul>
+    <li>Figure out why it works on localhost and not herokuapp</li> 
+    <li>Figure out why respond_to format doesn't work in header of UsersController</li> 
+  </ul> 
   <li>leaflet maps / postgres hooks</li> 
   <li>Actual content (this part is tentative)</li> 
 </ul>
 
-<div id="map"><%= map(:center => {
-        :latlng => [51.52238797921441, -0.08366235665359283],
-        :zoom => 18
-      }) %>
+<div id="map">
 </div> 
 
