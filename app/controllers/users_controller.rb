@@ -3,32 +3,21 @@ class UsersController < ApplicationController
   before_action :correct_user,   only: [:edit, :update]
   before_action :admin_user,     only: :destroy
 
+  respond_to :json, :html 
+
   def show
     @user = User.find(params[:id])
-    respond_to do |format| 
-      if params[:callback]
-        format.js { render :json => @user, :callback => params[:callback] }
-      else
-        format.html
-        format.json { render json: @user }
-      end
-    end
+    respond_with @user
   end
 
   def new
     @user = User.new
+    respond_with @user
   end
 
   def index
     @users = User.paginate(page: params[:page])
-    respond_to do |format| 
-      if params[:callback]
-        format.js { render :json => @users, :callback => params[:callback] }
-      else
-        format.html
-        format.json { render json: @users }
-      end
-    end
+    respond_with @users
   end
 
   def create
