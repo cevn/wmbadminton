@@ -6,8 +6,11 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
     respond_to do |format| 
-      format.html
-      format.json { render :json => @user }
+      if params[:callback]
+        format.js { render :json => @user, :callback => params[:callback] }
+      else
+        format.json { render json: @user }
+      end
     end
   end
 
@@ -18,8 +21,11 @@ class UsersController < ApplicationController
   def index
     @users = User.paginate(page: params[:page])
     respond_to do |format| 
-      format.html
-      format.json { render :json => @users }
+      if params[:callback]
+        format.js { render :json => @users, :callback => params[:callback] }
+      else
+        format.json { render json: @users }
+      end
     end
   end
 
