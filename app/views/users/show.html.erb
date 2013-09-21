@@ -5,6 +5,7 @@
       <h1>
         <%= gravatar_for @user %>
         <%= @user.name %>
+        asset_path = <%= asset_path('marker-icon.png') %>
       </h1>
     </section>
   </aside>
@@ -13,6 +14,7 @@
 </div>
 
 <script> 
+
   var lat = <%= @user.latitude %>
   var lon = <%= @user.longitude %> 
 
