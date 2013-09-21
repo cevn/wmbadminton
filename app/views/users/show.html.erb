@@ -31,7 +31,8 @@
     spin: true
   })
 
-  L.marker([<%= @user.latitude %>, <%= @user.longitude %>], {icon: redMarker}).addTo(map)
-      .bindPopup('<%= @user.name %> last seen here.')
-      .openPopup();
+  //L.marker([<%= @user.latitude %>, <%= @user.longitude %>]).addTo(map);
+  L.marker([37.271, -76.715]).addTo(map)
+  .bindPopup('A pretty CSS3 popup. <br> Easily customizable.')
+  .openPopup();
 </script>
