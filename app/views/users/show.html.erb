@@ -5,7 +5,11 @@
       <h1>
         <%= gravatar_for @user %>
         <%= @user.name %>
-      </h1>
+      </h1> <br> 
+      <h2> 
+      Dead?: <%= @user.dead %> <br> 
+      Werewolf? :   <%= @user.werewolf %> 
+      </h2> 
     </section>
   </aside>
   <aside id="map">
