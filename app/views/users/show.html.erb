@@ -15,9 +15,12 @@
 
 
 <script> 
+  var lat = <%= @user.latitude %>
+  var lon = <%= @user.longitude %> 
+
   var map = L.map('map', {
-      center: [37.271, -76.715],
-      zoom: 16
+      center: [lat, lon],
+      zoom: 17
   });
 
   L.tileLayer('http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png', {
@@ -25,14 +28,9 @@
     styleId: 997
   }).addTo(map);
 
-  var redMarker = L.AwesomeMarkers.icon({
-    icon: 'spinner', 
-    color: 'red',
-    spin: true
-  })
+  L.marker([lat, lon]).addTo(map)
+  .bindPopup('<%= @user.name %>: last seen here.')
+  .openPopup();
 
   //L.marker([<%= @user.latitude %>, <%= @user.longitude %>]).addTo(map);
-  L.marker([37.271, -76.715]).addTo(map)
-  .bindPopup('A pretty CSS3 popup. <br> Easily customizable.')
-  .openPopup();
 </script>
