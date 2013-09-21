@@ -16,7 +16,7 @@ gem 'bootstrap-sass'
 gem 'faker'
 gem 'will_paginate' 
 gem 'bootstrap-will_paginate'
-#gem 'leaflet-rails' 
+gem 'leaflet-rails' 
 
 group :doc do
   gem 'sdoc', require: false
