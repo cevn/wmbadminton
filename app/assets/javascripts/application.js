@@ -16,3 +16,5 @@
 //= require bootstrap
 //= require_tree .
 //= require leaflet
+//= require leaflet.awesome-markers
+//= require leaflet.awesome-markers.min

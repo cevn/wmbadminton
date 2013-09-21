@@ -12,4 +12,5 @@
  *= require_tree .
  *= require leaflet
  *= require leaflet.ie
+ *= require leaflet.awesome-markers
  */

@@ -1,6 +1,6 @@
 <% provide(:title, @user.name) %>
-<div class="row">
-  <aside class="span4">
+<div class="container-fluid">
+  <aside class="span3">
     <section>
       <h1>
         <%= gravatar_for @user %>
@@ -8,4 +8,30 @@
       </h1>
     </section>
   </aside>
+  <aside id="map">
+  </aside> 
 </div>
+
+
+
+<script> 
+  var map = L.map('map', {
+      center: [37.271, -76.715],
+      zoom: 16
+  });
+
+  L.tileLayer('http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png', {
+    key: '0b9e3b46e10f417182b04a610be00f88',
+    styleId: 997
+  }).addTo(map);
+
+  var redMarker = L.AwesomeMarkers.icon({
+    icon: 'spinner', 
+    color: 'red',
+    spin: true
+  })
+
+  L.marker([<%= @user.latitude %>, <%= @user.longitude %>], {icon: redMarker}).addTo(map)
+      .bindPopup('<%= @user.name %> last seen here.')
+      .openPopup();
+</script>
