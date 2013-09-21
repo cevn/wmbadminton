@@ -14,9 +14,22 @@
 </div>
 
 <script> 
+var defaulticon = L.icon({
 
-  var lat = <%= @user.latitude %>
-  var lon = <%= @user.longitude %> 
+    iconUrl:   '<%= asset_path('marker-icon.png') %>',
+    shadowUrl: '<%= asset_path('marker-shadow.png') %>',
+
+    //iconSize:     [38, 95], // size of the icon
+    //shadowSize:   [50, 64], // size of the shadow
+    //iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    //shadowAnchor: [4, 62],  // the same for the shadow
+    //popupAnchor:  [-10, -10] // point from which the popup should open relative to the iconAnchor
+});
+
+
+
+  var lat = <%= @user.latitude %>;
+  var lon = <%= @user.longitude %>;
 
   var map = L.map('map', {
       center: [lat, lon],
@@ -28,9 +41,7 @@
     styleId: 997
   }).addTo(map);
 
-  L.marker([lat, lon]).addTo(map)
+L.marker([lat, lon], {icon: defaulticon}).addTo(map)
   .bindPopup('<%= @user.name %>: last seen here.')
   .openPopup();
-
-  //L.marker([<%= @user.latitude %>, <%= @user.longitude %>]).addTo(map);
 </script>
