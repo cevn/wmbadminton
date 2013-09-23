@@ -1,7 +1,7 @@
 <% provide(:title, @user.name) %>
 <div class="container-fluid">
-  <aside class="span3">
-    <section>
+  <div class="row-fluid">
+    <div class="span2"> 
       <h1>
         <%= gravatar_for @user %>
         <%= @user.name %>
@@ -10,10 +10,10 @@
       Dead?: <%= @user.dead %> <br> 
       Werewolf? :   <%= @user.werewolf %> 
       </h2> 
-    </section>
-  </aside>
-  <aside id="map">
-  </aside> 
+    </div>
+    <div class="span10" id="map">
+    </div>
+  </div>
 </div>
 
 <script> 
@@ -24,7 +24,7 @@ var defaulticon = L.icon({
 
     //iconSize:     [38, 95], // size of the icon
     //shadowSize:   [50, 64], // size of the shadow
-    //iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    iconAnchor:   [0, 32], // point of the icon which will correspond to marker's location
     //shadowAnchor: [4, 62],  // the same for the shadow
     //popupAnchor:  [-10, -10] // point from which the popup should open relative to the iconAnchor
 });
@@ -41,7 +41,5 @@ var defaulticon = L.icon({
     styleId: 997
   }).addTo(map);
 
-L.marker([lat, lon], {icon: defaulticon}).addTo(map)
-  .bindPopup('<%= @user.name %>: last seen here.')
-  .openPopup();
+L.marker([lat, lon], {icon: defaulticon}).addTo(map);
 </script>
