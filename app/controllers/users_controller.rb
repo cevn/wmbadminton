@@ -44,7 +44,7 @@ class UsersController < ApplicationController
 
   def move
     @user = User.find(params[:id]) 
-    if @user.update_attributes(user_params)
+    if @user.update_attributes(@user.latitude => params[:latitude], @user.longitude => params[:longitude])
       flash[:success] = "User moved to new location." 
       redirect_to @user
     end
