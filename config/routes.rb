@@ -1,4 +1,4 @@
-SdharRailswolf::Application.routes.draw do
+WMBadminton::Application.routes.draw do
   root 'static_pages#home'
 
   resources :users

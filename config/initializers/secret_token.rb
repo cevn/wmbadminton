@@ -24,4 +24,4 @@ def secure_token
   end
 end
 
-SdharRailswolf::Application.config.secret_key_base = secure_token
+WMBadminton::Application.config.secret_key_base = secure_token
