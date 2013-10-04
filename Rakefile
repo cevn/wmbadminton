@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-SdharRailswolf::Application.load_tasks
+WMBadminton::Application.load_tasks

@@ -1,23 +1,16 @@
 <% provide(:title, 'About Us') %>
-<h1>About Us</h1>
+<h1>2013 William and Mary Tournament</h1>
 <p>
-The William and Mary Badminton club is a club formed so that people of all skill levels
-can enjoy playing badminton. 
+  On November 11, 2013, the William and Mary Badminton club is hosting a tournament. 
 </p>
 
-<div class="container-fluid">
-  <div class="row-fluid">
-    <div class="span2"> 
-      <h2> Practice Times: </h2> 
-      <ul> 
-        <li> Mondays and Thursdays, 9:15 pm </li> 
-        <li> Saturday, 2:30 to 4:30 pm </li> 
-      </ul>
-      <h2> Location: Adair Hall</h2> 
-    </div> 
-    <div class="span10" id="map">
-    </div> 
-  </div>
+<ul> 
+  <li>The registration form can be found <%= link_to "here", "/registration.pdf" %>.</li>
+  <li>The tournament will be held in Adair Hall. </li>
+  <li>For google maps directions, you can use <%= link_to "this link", "https://www.google.com/maps/preview#!data=!4m18!3m17!1m1!1sCurrent+Location!1m5!1sAdair+Hall%2C+251+Ukrop+Way%2C+Williamsburg%2C+Virginia+23185!2s0x89b0899d93f405d9%3A0x2a7791ce61a01bc3!3m2!3d37.268604!4d-76.71807!3m8!1m3!1d2299!2d-76.7120662!3d37.269209!3m2!1i1152!2i556!4f13.1&fid=0" %>.</li>
+</ul>
+
+<div id="map">
 </div> 
 
 

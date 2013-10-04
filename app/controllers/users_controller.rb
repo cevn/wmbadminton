@@ -3,21 +3,16 @@ class UsersController < ApplicationController
   before_action :correct_user,   only: [:edit, :update]
   before_action :admin_user,     only: :destroy
 
-  respond_to :json, :html 
-
   def show
     @user = User.find(params[:id])
-    respond_with @user
   end
 
   def new
     @user = User.new
-    respond_with @user
   end
 
   def index
     @users = User.paginate(page: params[:page])
-    respond_with @users
   end
 
   def create
@@ -25,7 +20,7 @@ class UsersController < ApplicationController
     if @user.save
       UserMailer.welcome_email(@user).deliver
       sign_in @user
-      flash[:success] = "Welcome to railswolf!"
+      flash[:success] = "Welcome to William and Mary Badminton!"
       redirect_to @user
     else
       render 'new'
@@ -40,14 +35,6 @@ class UsersController < ApplicationController
 
   def edit
     @user = User.find(params[:id])
-  end
-
-  def move
-    @user = User.find(params[:id]) 
-    if @user.update_attributes(@user.latitude => params[:latitude], @user.longitude => params[:longitude])
-      flash[:success] = "User moved to new location." 
-      redirect_to @user
-    end
   end
 
   def update
@@ -81,9 +68,5 @@ class UsersController < ApplicationController
 
     def admin_user
       redirect_to(root_url) unless current_user.admin?
-    end
-
-    def werewolf_user
-      redirect_to(root_url) unless current_user.werewolf?
     end
 end

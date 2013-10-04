@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  default from: "notifications@railswolf.herokuapp.com"
+  default from: "badmintonwm@gmail.com"
  
   def welcome_email(user)
     @user = user
@@ -9,7 +9,7 @@ class UserMailer < ActionMailer::Base
                          password: 'jNbTQJagVLK7D3V5ukmQUA',
                          address: 'smtp.mandrillapp.com',
                          port: 587}
-    mail(to: @user.email, subject: 'Welcome to Railswolf',
+    mail(to: @user.email, subject: 'Welcome to W&M Badminton',
          delivery_method_options: delivery_options)
   end
 end
