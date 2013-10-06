@@ -1,17 +1,13 @@
 <% provide(:title, 'Sign up') %>
 <h1>Sign up</h1>
 
-<style> 
-  .center {
-   margin:0 auto;
-   float:none;
-  }
-</style> 
-<div class="container-fluid">
+<div class="container">
   <div class="row"> 
+    <div class="span6 offset3"> 
     <p> Use this form to sign up. If you don't know who you want to be your partner, just enter 
     'Request' and we'll find one for you. Remember, you still need to 
-    send a check to Yudis if you sign up with this method. </p> 
+    send a check to Yudis if you sign up with this method. You're not guaranteed a spot
+    until we receive your check. </p> 
     <%= form_for(@user) do |f| %>
       <%= render 'shared/error_messages' %>
 
@@ -24,10 +20,13 @@
       <%= f.label :partner%>
       <%= f.text_field :partner %>
 
+    </div> 
 
   </div> 
-      <div class="row "> 
+      <div class="row text-center"> 
+      <div class="span6 offset3"> 
       <p> Check the boxes for the brackets for which you intend to sign up.</p> 
+    </div> 
       <div class="span2 offset3"> 
         <%= radio_button_tag(:md, 'MDA') %> MDA <br> 
         <%= radio_button_tag(:md, 'MDB') %> MDB <br> 
@@ -44,10 +43,10 @@
 
       <div class="row spacer">
       <div class="span6 offset3"> 
-        <%= f.submit "Signup for the tournament!", class: "btn btn-large btn-primary" %>
+        <%= f.submit "Sign up for the tournament!", class: "btn btn-large btn-primary" %>
         <%= f.submit "Clear form", class: "btn btn-large btn-danger", :type => "reset" %> 
       </div>
       </div> 
-      <% end %> 
+    <% end %> 
   </div>
 </div> 

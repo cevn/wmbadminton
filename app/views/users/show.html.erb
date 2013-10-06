@@ -1,45 +1,5 @@
 <% provide(:title, @user.name) %>
-<div class="container-fluid">
-  <div class="row-fluid">
-    <div class="span2"> 
-      <h1>
-        <%= gravatar_for @user %>
-        <%= @user.name %>
-      </h1> <br> 
-      <h2> 
-      Dead?: <%= @user.dead %> <br> 
-      Werewolf? :   <%= @user.werewolf %> 
-      </h2> 
-    </div>
-    <div class="span10" id="map">
-    </div>
-  </div>
+<div class="container">
+  Paid: <%= @user.paid %> 
 </div>
 
-<script> 
-var defaulticon = L.icon({
-
-    iconUrl:   '<%= asset_path('marker-icon.png') %>',
-    shadowUrl: '<%= asset_path('marker-shadow.png') %>',
-
-    //iconSize:     [38, 95], // size of the icon
-    //shadowSize:   [50, 64], // size of the shadow
-    iconAnchor:   [0, 32], // point of the icon which will correspond to marker's location
-    //shadowAnchor: [4, 62],  // the same for the shadow
-    //popupAnchor:  [-10, -10] // point from which the popup should open relative to the iconAnchor
-});
-  var lat = <%= @user.latitude %>;
-  var lon = <%= @user.longitude %>;
-
-  var map = L.map('map', {
-      center: [lat, lon],
-      zoom: 17
-  });
-
-  L.tileLayer('http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png', {
-    key: '0b9e3b46e10f417182b04a610be00f88',
-    styleId: 997
-  }).addTo(map);
-
-L.marker([lat, lon], {icon: defaulticon}).addTo(map);
-</script>
