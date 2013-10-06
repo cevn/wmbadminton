@@ -7,7 +7,6 @@ development:
   adapter: postgresql 
   database: my_database_devel
   host: localhost
-  username: sameer
   pool: 5
   timeout: 5000
 
@@ -18,7 +17,6 @@ test:
   adapter: postgresql 
   database: my_database_test
   host: localhost
-  username: sameer
   pool: 5
   timeout: 5000
 
@@ -26,6 +24,5 @@ production:
   adapter: postgresql 
   host: localhost
   database: my_database_prod
-  username: sameer
   pool: 5
   timeout: 5000
