@@ -1,17 +1,26 @@
 <% provide(:title, 'About Us') %>
 <h1>2013 William and Mary Tournament</h1>
+<div class="container"> 
 <p>
   On November 11, 2013, the William and Mary Badminton club is hosting a tournament. 
 </p>
 
-<ul> 
-  <li>The registration form can be found <%= link_to "here", "/registration.pdf" %>.</li>
-  <li>The tournament will be held in Adair Hall. </li>
-  <li>For google maps directions, you can use <%= link_to "this link", "https://www.google.com/maps/preview#!data=!4m18!3m17!1m1!1sCurrent+Location!1m5!1sAdair+Hall%2C+251+Ukrop+Way%2C+Williamsburg%2C+Virginia+23185!2s0x89b0899d93f405d9%3A0x2a7791ce61a01bc3!3m2!3d37.268604!4d-76.71807!3m8!1m3!1d2299!2d-76.7120662!3d37.269209!3m2!1i1152!2i556!4f13.1&fid=0" %>.</li>
-</ul>
-
-<div id="map">
+<div class="row spacer"> 
+  <ul> 
+    <li>The registration form can be found <%= link_to "here", "/registration.pdf" %>.</li>
+    <li>The tournament will be held in Adair Hall. </li>
+    <li>For google maps directions, you can use <%= link_to "this link", "https://www.google.com/maps/preview#!data=!4m18!3m17!1m1!1sCurrent+Location!1m5!1sAdair+Hall%2C+251+Ukrop+Way%2C+Williamsburg%2C+Virginia+23185!2s0x89b0899d93f405d9%3A0x2a7791ce61a01bc3!3m2!3d37.268604!4d-76.71807!3m8!1m3!1d2299!2d-76.7120662!3d37.269209!3m2!1i1152!2i556!4f13.1&fid=0" %>.</li>
+    <li>You must sign the registration form and mail us a check to be considered registered. Late entries will not be considered. 
+    </li> 
+  </ul>
 </div> 
+<div class="row spacer text-center"> <%= link_to "Sign up for tournament online!", new_user_path, class: "btn btn-large btn-primary control-group" %>
+<%= link_to "Sign up for tournament by mail!", "/registration.pdf", class: "btn btn-large btn-primary control-group" %> 
+
+</div> 
+<div id="map" class="row spacer">
+</div> 
+</div>
 
 
 <script> 
@@ -40,13 +49,4 @@ var defaulticon = L.icon({
   }).addTo(map);
 
 L.marker([lat, lon], {icon: defaulticon}).addTo(map);
-</script>
-<script> 
-var map = L.map('map').setView([37.2711, -76.7075], 15);
-L.tileLayer('http://{s}.tile.cloudmade.com/0b9e3b46e10f417182b04a610be00f88/997/256/{z}/{x}/{y}.png', {
-        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
-            maxZoom: 18
-            }).addTo(map);
-
-// add a marker in the given location, attach some popup content to it and open the popup
 </script>

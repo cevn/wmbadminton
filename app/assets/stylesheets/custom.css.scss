@@ -12,6 +12,7 @@ $grayMediumLight: #eaeaea;
 
 /* universal */
 
+
 html {
   overflow-y: scroll;
 }
@@ -26,6 +27,10 @@ section {
 
 textarea {
   resize: vertical;
+}
+
+.spacer {
+      margin-top: 40px; /* define margin as you see fit */
 }
 
 .center {
