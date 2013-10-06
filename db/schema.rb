@@ -21,7 +21,6 @@ ActiveRecord::Schema.define(version: 20131005044453) do
     t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "remember_token"
     t.boolean  "admin",          default: false
     t.string   "md"
     t.string   "xd"
