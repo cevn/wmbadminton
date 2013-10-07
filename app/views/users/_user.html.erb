@@ -1,3 +1,19 @@
 <li>
-  <%= link_to user.name, user %>
+<div class="container">
+  <div class="row"> 
+
+    <div class="span2"> 
+      <%= link_to user.name, user %>
+    </div>
+
+    <div class="span2 offset6"> 
+      Paid: <%= user.paid %>
+    </div> 
+
+    <div class="span2"> 
+      Club: <%= user.club %>
+    </div> 
+  </div>
+</div> 
+  
 </li>

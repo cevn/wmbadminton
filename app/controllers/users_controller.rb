@@ -15,7 +15,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      flash[:success] = "Welcome to William and Mary Badminton!"
+      flash[:success] = "Thanks for signing up for the tournament!" 
       redirect_to @user
     else
       render 'new'
@@ -34,6 +34,20 @@ class UsersController < ApplicationController
 
   private
     def user_params
-      params.require(:user).permit(:name, :email, :partner)
+      params.require(:user).permit(:name, 
+                                   :email, 
+                                   :address_street, 
+                                   :address_city_state, 
+                                   :address_zip, 
+                                   :phone,
+                                   :club, 
+                                   :fees, 
+                                   :signature,
+                                   :md, 
+                                   :wd, 
+                                   :xd,
+                                   :md_partner, 
+                                   :wd_partner, 
+                                   :xd_partner)
     end
 end

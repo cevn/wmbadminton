@@ -2,43 +2,51 @@
 <h1>Sign up</h1>
 
 <div class="container">
-  <div class="row"> 
-    <div class="span6 offset3"> 
+  <div class="span6 offset3"> 
+    <div class="row"> 
       <p> Your partner(s) also needs to sign up separately. </p> 
-    <p>You can enter 'request' in the partner field if you don't have a partner.  
-    Remember, you still need to send a check payable to Yudistira Virgus to guarantee your spot. </p> 
-    <%= form_for(@user) do |f| %>
-      <%= render 'shared/error_messages' %>
+      <p>You can enter 'request' in the partner field if you don't have a partner.  
+      Remember, you still need to send a check payable to Yudistira Virgus to guarantee your spot. </p> 
+      <%= simple_form_for(@user, html: {class: 'form-horizontal' }) do |f| %>
+        <%= render 'shared/error_messages' %>
+        <%= f.input :name %> 
+        <%= f.input :email %>
+        <%= f.input :address_street,      label: 'Street address'  %> 
+        <%= f.input :address_city_state,  label: 'City, State' %> 
+        <%= f.input :address_zip,         label: 'Zipcode' %> 
+        <%= f.input :phone,               label: 'Phone Number' %> 
+        <%= f.input :club %> 
+  </div> 
 
-      <%= f.label :name %>
-      <%= f.text_field :name %>
+      <div class="row"> 
+        <p> Check the boxes for the brackets and fill in a partner's name for each event 
+        for which you want to sign up.</p> 
 
-      <%= f.label :email %>
-      <%= f.text_field :email %> 
+        <%= f.input_field :md, as: :boolean, inline_label: 'MD' %>
+        <%= f.input_field :md_partner %>
 
-      <%= f.label :partner%>
-      <%= f.text_field :partner %>
+        <%= f.input_field :wd, as: :boolean, inline_label: 'WD' %>
+        <%= f.input_field :wd_partner %>
 
+        <%= f.input_field :xd, as: :boolean, inline_label: 'XD' %>
+        <%= f.input_field :xd_partner %>
+
+
+      </div> 
+  
+    
+    <div class="row spacer"> 
+    <div class="span4 offset 4"> 
+      <p>Enter how much you have to pay. Fees are $15 per event, plus a $10 facility fee. 
+      <%= f.input :fees %>
+
+    </div> 
     </div> 
 
   </div> 
-      <div class="row text-center"> 
-      <div class="span6 offset3"> 
-      <p> Check the boxes for the brackets for which you intend to sign up.</p> 
-    </div> 
-      <div class="span2 offset3"> 
-        <%= check_box(:md, 'MD') %> MD <br> 
-      </div> 
-      <div class="span2"> 
-        <%= check_box(:wd, 'WD') %> WD <br> 
-      </div> 
-      <div class="span2"> 
-        <%= check_box(:xd, 'XDA') %> XD <br> 
-      </div> 
-    </div>
 
       <div class="row spacer">
-      <div class="span6 offset3"> 
+      <div class="span6 offset3 spacer"> 
         <small> By entering my full name here, I agree to waive any and all claims which
         may arise from my participation in the William and Mary Badminton
         Tournament. In consideration of my being permitted to participate in
@@ -48,10 +56,10 @@
         damage to, or loss of, my properties incurred during the course of the
         Tournament. </small> 
 
-        <%= f.label :name %>
-        <%= f.text_field :name %>
-        <%= f.submit "Sign up for the tournament!", class: "btn btn-large btn-primary" %>
-        <%= f.submit "Clear form", class: "btn btn-large btn-danger", :type => "reset" %> 
+        <%= f.input :signature %>
+
+        <%= f.submit "Sign up for the tournament!", class: "btn btn-large btn-primary" %> 
+        <%= f.submit "Clear form",                  class: "btn btn-large btn-danger", :type => "reset" %> 
       </div>
       </div> 
     <% end %> 

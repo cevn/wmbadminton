@@ -1,5 +1,41 @@
 <% provide(:title, @user.name) %>
 <div class="container">
-  Paid: <%= @user.paid %> 
+  <table class="table table-bordered"> 
+    <tr>
+      <td><b>Paid</b></td>
+      <td><b>Events</b></td> 
+      <td><b>MD Partner</b></td>
+      <td><b>WD Partner</b></td>
+      <td><b>XD Partner</b></td>
+      <td><b>Club</b></td>
+    </tr>
+    <tr>
+      <td><%= @user.paid %></td>  
+      <td>
+        <% if @user.md %>
+            <%= 'MD ' %> 
+        <% end %> 
+        <% if @user.wd %>
+            <%= 'WD ' %> 
+        <% end %> 
+        <% if @user.xd %>
+            <%= 'XD' %> 
+        <% end %> 
+      </td> 
+
+      <td> 
+        <%= @user.md_partner %> 
+      </td> 
+      <td> 
+        <%= @user.wd_partner %> 
+      </td> 
+      <td> 
+        <%= @user.xd_partner %> 
+      </td> 
+      <td> 
+        <%= @user.club %> 
+      </td> 
+    </tr>
+  </table> 
 </div>
 

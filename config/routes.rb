@@ -11,6 +11,7 @@ WMBadminton::Application.routes.draw do
   match '/about',       to: 'static_pages#about',       via: 'get'
   match '/contact',     to: 'static_pages#contact',     via: 'get'
   match '/tournament',  to: 'static_pages#tournament',  via: 'get'
+  match '/rules',       to: 'static_pages#rules',       via: 'get'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
