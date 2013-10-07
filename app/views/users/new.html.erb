@@ -3,6 +3,7 @@
 
 <div class="container">
   <div class="span6 offset3"> 
+
     <div class="row"> 
       <p> Your partner(s) also needs to sign up separately. </p> 
       <p>You can enter 'request' in the partner field if you don't have a partner.  
@@ -16,12 +17,13 @@
         <%= f.input :address_zip,         label: 'Zipcode' %> 
         <%= f.input :phone,               label: 'Phone Number' %> 
         <%= f.input :club %> 
-  </div> 
+    </div> 
 
       <div class="row">
         <p> Select a skill level so that we have a better idea of where to seed you. </p> 
         <%= f.input :skill, collection: 'A,B,C,D'.split(','), default: 'A' %> 
       </div> 
+
       <div class="row"> 
         <p> Check the boxes for the brackets and fill in a partner's name for each event 
         for which you want to sign up.</p> 
@@ -35,37 +37,24 @@
         <%= f.input_field :xd, as: :boolean, inline_label: 'XD' %>
         <%= f.input_field :xd_partner %>
 
-
       </div> 
-  
-    
-    <div class="row spacer"> 
-    <div class="span4 offset 4"> 
+
       <p>Enter how much you have to pay. Fees are $15 per event, plus a $10 facility fee. 
       <%= f.input :fees %>
 
-    </div> 
-    </div> 
+      <small> By entering my full name here, I agree to waive any and all claims which
+      may arise from my participation in the William and Mary Badminton
+      Tournament. In consideration of my being permitted to participate in
+      this competition, I, the person named below, release and discharge the
+      William and Mary Badminton Club, organizers, and all participants in
+      this event harmless for any bodily injury to myself or others, or for
+      damage to, or loss of, my properties incurred during the course of the
+      Tournament. </small> 
 
-  </div> 
+      <%= f.input :signature %>
 
-      <div class="row spacer">
-      <div class="span6 offset3 spacer"> 
-        <small> By entering my full name here, I agree to waive any and all claims which
-        may arise from my participation in the William and Mary Badminton
-        Tournament. In consideration of my being permitted to participate in
-        this competition, I, the person named below, release and discharge the
-        William and Mary Badminton Club, organizers, and all participants in
-        this event harmless for any bodily injury to myself or others, or for
-        damage to, or loss of, my properties incurred during the course of the
-        Tournament. </small> 
-
-        <%= f.input :signature %>
-
-        <%= f.submit "Sign up for the tournament!", class: "btn btn-large btn-primary" %> 
-        <%= f.submit "Clear form",                  class: "btn btn-large btn-danger", :type => "reset" %> 
-      </div>
-      </div> 
+      <%= f.button :submit, label: "Sign up for the tournament!", :class => 'btn btn-large btn-primary'  %> 
+      <%= f.button :button, 'Clear form', :type => 'reset', :class => 'btn btn-large btn-danger' %>
     <% end %> 
   </div>
 </div> 
