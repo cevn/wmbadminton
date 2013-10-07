@@ -10,6 +10,7 @@ class User < ActiveRecord::Base
   validates :address_zip, presence: true
   validates :fees, presence: true
   validates :skill, presence: true
+  validates :gender, presence: true
 
   # Required to make boolean presence validation
   validates_inclusion_of :md, :in => [true, false]

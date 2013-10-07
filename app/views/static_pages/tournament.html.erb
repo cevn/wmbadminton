@@ -3,25 +3,62 @@
 <div class="container"> 
 
 <div class="row spacer"> 
-  <div class="span6 offset3"> 
-  <ul> 
-    <h2>Registration and Location</h2> 
-    <li class="glyphicon glyphicon-file">The registration form can be found <%= link_to "here", "/registration.pdf" %>.</li>
-    <li>Rules can be found at <%= link_to "this link", rules_path %>.</li> 
-    <li>The tournament will be held in Adair Hall. </li>
-    <li>For google maps directions, you can use <%= link_to "this link", "https://www.google.com/maps/preview#!data=!4m18!3m17!1m1!1sCurrent+Location!1m5!1sAdair+Hall%2C+251+Ukrop+Way%2C+Williamsburg%2C+Virginia+23185!2s0x89b0899d93f405d9%3A0x2a7791ce61a01bc3!3m2!3d37.268604!4d-76.71807!3m8!1m3!1d2299!2d-76.7120662!3d37.269209!3m2!1i1152!2i556!4f13.1&fid=0" %>.</li>
-    <li>You must sign the registration form and mail us a check to be considered registered. Late entries will not be considered. 
-    </li> 
-  </ul>
+  <div class="span3"> 
+    <ul> 
+      <h2>Location</h2> 
+      <li><b>College of William and Mary</b></li> 
+      <li>Adair Hall</li> 
+      <li>251 Ukrop Way</li> 
+      <li>Williamsburg, VA 23185</li> 
+    </ul> 
   </div> 
+  <div class="span3"> 
+    <ul> 
+      <h2>Schedule</h2> 
+      <li><b>Saturday November 9, 2013</b></li>
+      <li>Registration and Warm-up: 8:00am – 8:30am</li> 
+      <li>ALL Mixed Doubles competitors MUST arrive before 8:30am</li> 
+      <ul> 
+        <li>Mixed Doubles: 8:30am</li>
+        <li>Women’s Doubles: 11:00am </li>
+        <li>Men’s Doubles: 12:00pm</li> 
+      </ul> 
+        <li>The facility closes promptly at 7:00pm</li> 
+    </ul> 
   </div>
+    <div class="span3"> 
+      <h2>Format and Events</h2> 
+      <ul> 
+        <li><b>Events</b>: Doubles Only: MD, XD, WD </li> 
+        <li><b>Format</b>: A/B/C/D drop down. 
+          (All games start in the A bracket. First round A losers move to the C bracket, 
+          second round A losers move to the B bracket. First round C losers move to the 
+          D bracket. You are out with any loss in your third match or later.) 
+          <br> * We reserve the right to make necessary adjustments for the game format.</li>
+    </div> 
+  <div class="span3"> 
+    <ul> 
+      <h2>Other</h2> 
+      <li>Rules can be found at <%= link_to "this link", rules_path %>.</li> 
+      <li>You must sign the registration form and mail us a check to be 
+      considered registered. Late entries will not be considered. </li> 
+      <li><b>Entry Fee:</b> $15 per event + $10 facility fee</li> 
+      <li><b>USAB Membership</b>: Not required</li> 
+      <li><b>Shuttlecocks</b>: Yonex AS-50</li> 
+      <li><b>Lunch</b>: Pizza and drinks</li>
+      <li><b>Prizes</b>: Awards to all winners and finalists in each bracket</li> 
+    </ul>
+  </div> 
 </div> 
 <div class="row spacer text-center">
-  <div class="span5 offset1"> 
-    <%= link_to "Sign up for tournament online!", signup_path, class: "btn btn-large btn-primary control-group" %>
+  <div class="span4"> 
+    <%= link_to "Sign up for tournament online", signup_path, class: "btn btn-large btn-primary control-group" %>
   </div> 
-  <div class="span5"> 
-    <%= link_to "Sign up for tournament by mail!", "/registration.pdf", class: "btn btn-large btn-primary control-group" %> 
+  <div class="span4"> 
+    <%= link_to "Sign up for tournament by mail", "/registration.pdf", class: "btn btn-large btn-primary control-group" %> 
+  </div> 
+  <div class="span4"> 
+    <%= link_to "View tournament rules", rules_path, class: "btn btn-large btn-primary control-group" %> 
   </div> 
 
 </div> 

@@ -9,6 +9,7 @@
     <%= simple_form_for(@user, html: {class: 'form-horizontal' }) do |f| %>
       <%= render 'shared/error_messages' %>
       <%= f.input :name %> 
+      <%= f.input :gender, collection: 'Male,Female'.split(',') %>
       <%= f.input :email %>
       <%= f.input :address_street,      label: 'Street address'  %> 
       <%= f.input :address_city_state,  label: 'City, State' %> 
@@ -18,7 +19,7 @@
       <p> Select a skill level so that we have a better idea of where to seed you. </p> 
       <%= f.input :skill, collection: 'A,B,C,D'.split(','), default: 'A' %> 
 
-      <p> Check the boxes for the brackets and fill in a partner's name for each event 
+      <p> Check the boxes for the categories and fill in a partner's name for each event 
       for which you want to sign up.</p> 
 
       <%= f.input_field :md, as: :boolean, inline_label: 'MD' %>
@@ -44,7 +45,7 @@
 
       <%= f.input :signature %>
 
-      <%= f.button :submit, label: "Sign up for the tournament!", :class => 'btn btn-large btn-primary'  %> 
+      <%= f.button :submit, 'Sign up!', :class => 'btn btn-large btn-primary'  %> 
       <%= f.button :button, 'Clear form', :type => 'reset', :class => 'btn btn-large btn-danger' %>
     <% end %> 
   </div>
