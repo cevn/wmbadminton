@@ -3,7 +3,7 @@
 <div class="container"> 
 
 <div class="row spacer"> 
-  <div class="span4 offset2"> 
+  <div class="span5 offset1"> 
   <ul> 
     <h2>Registration and Location</h2> 
     <li>The registration form can be found <%= link_to "here", "/registration.pdf" %>.</li>
@@ -13,22 +13,29 @@
     </li> 
   </ul>
   </div> 
-  <div class="span4"> 
-  <h2> Rules </h2> 
+  <div class="span5"> 
+  <h2>Rules</h2> 
   <ul> 
     <li>The shuttlecock hitting any part of the ceiling will be considered a retake.</li> 
     <li>We are using 21-point format, where both teams can score on any point.</li> 
     <li>There are only 4 courts, please keep warmup time to a minumum so we can finish 
     the tournament in a timely manner. </li> 
+    <li>We're going to use Yonex AS-50 for the birds.</li>  
   </ul> 
   </div>
 </div> 
-<div class="row spacer text-center"> <%= link_to "Sign up for tournament online!", new_user_path, class: "btn btn-large btn-primary control-group" %>
-<%= link_to "Sign up for tournament by mail!", "/registration.pdf", class: "btn btn-large btn-primary control-group" %> 
+<div class="row spacer text-center">
+  <div class="span5 offset1"> 
+    <%= link_to "Sign up for tournament online!", new_user_path, class: "btn btn-large btn-primary control-group" %>
+  </div> 
+  <div class="span5"> 
+    <%= link_to "Sign up for tournament by mail!", "/registration.pdf", class: "btn btn-large btn-primary control-group" %> 
+  </div> 
 
 </div> 
-<div id="map" class="row spacer">
-</div> 
+  <div class="row spacer">
+    <div id="map" class="span10 offset1"></div> 
+  </div> 
 </div>
 
 
