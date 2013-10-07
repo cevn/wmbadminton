@@ -3,8 +3,6 @@
 
 <div class="container">
   <div class="span6 offset3"> 
-
-    <div class="row"> 
       <p> Your partner(s) also needs to sign up separately. </p> 
       <p>You can enter 'request' in the partner field if you don't have a partner.  
       Remember, you still need to send a check payable to Yudistira Virgus to guarantee your spot. </p> 
@@ -17,14 +15,9 @@
         <%= f.input :address_zip,         label: 'Zipcode' %> 
         <%= f.input :phone,               label: 'Phone Number' %> 
         <%= f.input :club %> 
-    </div> 
-
-      <div class="row">
         <p> Select a skill level so that we have a better idea of where to seed you. </p> 
         <%= f.input :skill, collection: 'A,B,C,D'.split(','), default: 'A' %> 
-      </div> 
 
-      <div class="row"> 
         <p> Check the boxes for the brackets and fill in a partner's name for each event 
         for which you want to sign up.</p> 
 
@@ -36,7 +29,6 @@
 
         <%= f.input_field :xd, as: :boolean, inline_label: 'XD' %>
         <%= f.input_field :xd_partner %>
-      </div> 
 
       <p>Enter how much you have to pay. Fees are $15 per event, plus a $10 facility fee. 
       <%= f.input :fees, :class => 'input-small'  %>
