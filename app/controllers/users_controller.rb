@@ -47,7 +47,8 @@ class UsersController < ApplicationController
                                    :wd, 
                                    :xd,
                                    :md_partner, 
-                                   :wd_partner, 
-                                   :xd_partner)
+                                   :wd_partner,
+                                   :xd_partner,
+                                   :skill)
     end
 end

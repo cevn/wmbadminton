@@ -9,11 +9,13 @@ class User < ActiveRecord::Base
   validates :address_city_state, presence: true
   validates :address_zip, presence: true
   validates :fees, presence: true
+  validates :skill, presence: true
 
   # Required to make boolean presence validation
   validates_inclusion_of :md, :in => [true, false]
   validates_inclusion_of :wd, :in => [true, false]
   validates_inclusion_of :xd, :in => [true, false]
+
 
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
   validates :email, presence:   true,
