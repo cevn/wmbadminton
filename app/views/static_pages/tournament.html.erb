@@ -3,7 +3,7 @@
 <div class="container"> 
 
 <div class="row spacer"> 
-  <div class="span3"> 
+  <div class="col-md-3"> 
     <ul> 
       <h2>Location</h2> 
       <li><b>College of William and Mary</b></li> 
@@ -12,7 +12,7 @@
       <li>Williamsburg, VA 23185</li> 
     </ul> 
   </div> 
-  <div class="span3"> 
+  <div class="col-md-3"> 
     <ul> 
       <h2>Schedule</h2> 
       <li><b>Saturday November 9, 2013</b></li>
@@ -26,7 +26,7 @@
         <li>The facility closes promptly at 7:00pm</li> 
     </ul> 
   </div>
-    <div class="span3"> 
+    <div class="col-md-3"> 
       <h2>Format and Events</h2> 
       <ul> 
         <li><b>Events</b>: Doubles Only: MD, XD, WD </li> 
@@ -36,7 +36,7 @@
           D bracket. You are out with any loss in your third match or later.) 
           <br> * We reserve the right to make necessary adjustments for the game format.</li>
     </div> 
-  <div class="span3"> 
+  <div class="col-md-3"> 
     <ul> 
       <h2>Other</h2> 
       <li>Rules can be found at <%= link_to "this link", rules_path %>.</li> 
@@ -51,19 +51,19 @@
   </div> 
 </div> 
 <div class="row spacer text-center">
-  <div class="span4"> 
-    <%= link_to "Sign up for tournament online", signup_path, class: "btn btn-large btn-primary" %>
+  <div class="col-md-4"> 
+    <%= link_to "Sign up for tournament online", signup_path, class: "btn btn-lg btn-primary" %>
   </div> 
-  <div class="span4"> 
-      <%= link_to "Sign up by mail", "/registration.pdf", class: "btn btn-success btn-large" %>
+  <div class="col-md-4"> 
+      <%= link_to "Sign up by mail", "/registration.pdf", class: "btn btn-success btn-lg" %>
   </div> 
-  <div class="span4"> 
-    <%= link_to "View tournament rules", rules_path, class: "btn btn-large btn-info" %> 
+  <div class="col-md-4"> 
+    <%= link_to "View tournament rules", rules_path, class: "btn btn-lg btn-info" %> 
   </div> 
 
 </div> 
   <div class="row spacer">
-    <div id="map" class="span10 offset1"></div> 
+    <div id="map" class="col-md-10 offset1"></div> 
   </div> 
 </div>
 
