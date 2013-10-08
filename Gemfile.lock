@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/anjlab/bootstrap-rails.git
+  revision: addb7143365f97f938e3bdbb2ccfc52591230eda
+  branch: 3.0.0
+  specs:
+    anjlab-bootstrap-rails (3.0.0.rc2)
+      railties (>= 3.0)
+      sass (>= 3.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -28,8 +37,6 @@ GEM
     arel (4.0.0)
     atomic (1.1.14)
     bcrypt-ruby (3.0.1)
-    bootstrap-sass (2.3.2.2)
-      sass (~> 3.2)
     bootstrap-will_paginate (0.0.10)
       will_paginate
     builder (3.1.4)
@@ -86,7 +93,7 @@ GEM
     rake (10.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
-    sass (3.2.10)
+    sass (3.2.12)
     sass-rails (4.0.0)
       railties (>= 4.0.0.beta, < 5.0)
       sass (>= 3.1.10)
@@ -125,8 +132,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  anjlab-bootstrap-rails!
   bcrypt-ruby (~> 3.0.0)
-  bootstrap-sass
   bootstrap-will_paginate
   coffee-rails (~> 4.0.0)
   faker
@@ -136,7 +143,7 @@ DEPENDENCIES
   pg
   rails (= 4.0.0)
   rails_12factor
-  sass-rails (~> 4.0.0)
+  sass-rails
   sdoc
   simple_form (~> 3.0.0.rc)
   turbolinks
