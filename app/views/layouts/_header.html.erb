@@ -5,7 +5,15 @@
       <nav>
         <ul class="nav pull-right">
           <li><%= link_to "Home", root_path %></li>
-          <li><%= link_to "Tournament", tournament_path %></li> 
+          <li id="fat-menu" class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tournament<b class="caret"></b></a>
+
+          <ul class="dropdown-menu"> 
+            <li><%= link_to "Information", tournament_path %></li> 
+            <li><%= link_to "Entries", users_path %></li> 
+            <li><%= link_to "Sign up", signup_path %></li> 
+
+          </ul> 
         </ul>
       </nav>
     </div>
