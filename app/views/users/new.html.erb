@@ -9,36 +9,32 @@
     <b>as soon as possible</b>, 
     and certainly to arrive <b>no later than</b> November 1st. </p> 
 
-    <
-    <%= simple_form_for(@user, html: {class: 'form-horizontal' }) do |f| %>
+    <%= form_for @user, :html => {:class => "form-horizontal", :role => "form" }  do |f| %>
       <%= render 'shared/error_messages' %>
-      <%= f.input :name %> 
-      <%= f.input :gender, collection: 'Male,Female'.split(',') %>
-      <%= f.input :email %>
-      <%= f.input :address_street,      label: 'Street address'  %> 
-      <%= f.input :address_city_state,  label: 'City, State' %> 
-      <%= f.input :address_zip,         label: 'Zipcode' %> 
-      <%= f.input :phone,               label: 'Phone Number' %> 
-      <%= f.input :club %> 
-      <p> Select a skill level so that we have a better idea of where to seed you. </p> 
-      <%= f.input :skill, collection: 'A,B,C,D'.split(',') %> 
 
-      <p> Check the boxes for the categories and fill in a partner's name for each event 
-      for which you want to sign up.</p> 
+      <div class="form-group spacer"> 
+        <%= f.label :name, :class => "control-label col-md-2" %>
+        <div class="col-md-10">
+          <%= f.text_field :name, :class => "form-control" %>
+        </div>
+      </div> 
+      
 
-      <%= f.input_field :md, as: :boolean, inline_label: 'MD' %>
-      <%= f.input_field :md_partner %>
-
-      <%= f.input_field :wd, as: :boolean, inline_label: 'WD' %>
-      <%= f.input_field :wd_partner %>
-
-      <%= f.input_field :xd, as: :boolean, inline_label: 'XD' %>
-      <%= f.input_field :xd_partner %>
-
-      <p>Enter how much you have to pay. Fees are $15 per event, plus a $10 facility fee. 
-      <%= f.input :fees, :class => 'input-small'  %>
-
-      <small> By entering my full name here, I agree to waive any and all claims which
+      <div class="form-group"> 
+        <%= f.label :gender, :class => "control-label col-md-2" %>
+        <div class="col-md-10">
+          <%= f.check_box :gender, :style => "vertical-align:middle" %>
+        </div>
+      </div> 
+      
+      <div class="form-group"> 
+        <%= f.label :email, :class => "control-label col-md-2" %>
+        <div class="col-md-10">
+          <%= f.text_field :email, :class => "form-control" %>
+        </div>
+      </div> 
+      
+      <small class="spacer"> By entering my full name here, I agree to waive any and all claims which
       may arise from my participation in the William and Mary Badminton
       Tournament. In consideration of my being permitted to participate in
       this competition, I, the person named below, release and discharge the
@@ -47,12 +43,13 @@
       damage to, or loss of, my properties incurred during the course of the
       Tournament. </small> 
 
-      <%= f.input :signature %>
-
-      <div class="text-center"> 
-        <%= f.button :submit, 'Sign up!', :class => 'btn btn-lg btn-primary'  %> 
-        <%= f.button :button, 'Clear form', :type => 'reset', :class => 'btn btn-lg btn-danger' %>
-      </div>
+      <div class="form-group spacer"> 
+        <%= f.label :signature, :class => "control-label col-md-2" %>
+        <div class="col-md-10">
+          <%= f.text_field :signature, :class => "form-control" %>
+        </div>
+      </div> 
+      
     <% end %> 
   </div>
 </div> 
