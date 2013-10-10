@@ -1,4 +1,11 @@
-@import "bootstrap";
+$navbar-height: 35px;
+$grid-gutter-width: 30px;
+$font-family-base: 'FontAwesome';
+//$navbar-inverse-bg: #111;
+
+@import "twitter/bootstrap";
+@import "font-awesome";
+
 
 /* mixins, variables, etc. */
 @mixin box_sizing {
@@ -9,6 +16,14 @@
 
 $grayMediumLight: #eaeaea;
 
+.container {
+  max-width: 970px
+}
+
+.no-gutter {
+  margin:  0;
+  padding: 0; 
+}
 /* universal */
 html {
   overflow-y: scroll;
@@ -48,6 +63,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  font-weight: bolder; 
 }
 
 h2 {
@@ -56,16 +72,32 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $grayLight;
+  color: $gray-light;
+}
+
+h3 {
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: $gray-light;
+}
+
+h4 {
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: $gray-light;
 }
 
 p {
-  font-size: 1.1em;
+  font-size: .95em;
   line-height: 1.7em;
 }
 
 
-/* header */
+/* 5eader */
 
 #logo {
   float: left;
@@ -74,7 +106,6 @@ p {
   color: white;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 9px;
   font-weight: bold;
   line-height: 1;
   &:hover {
@@ -83,17 +114,18 @@ p {
   }
 }
 
+
 /* footer */
 
 footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $grayMediumLight;
-  color: $grayLight;
+  color: $gray-light;
   a {
     color: $gray;
     &:hover {
-      color: $grayDarker;
+      color: $gray-darker;
     }
   }
   small {
@@ -122,7 +154,7 @@ footer {
 aside {
   section {
     padding: 10px 0;
-    border-top: 1px solid $grayLighter;
+    border-top: 1px solid $gray-lighter;
     &:first-child {
       border: 0;
       padding-top: 0;
@@ -177,13 +209,14 @@ input {
 
 .users {
   list-style: none;
-  margin: 0;
+  margin:  0;
+  padding: 0; 
   li {
     overflow: auto;
     padding: 10px 0;
-    border-top: 1px solid $grayLighter;
+    border-top: 1px solid $gray-lighter;
     &:last-child {
-      border-bottom: 1px solid $grayLighter;
+      border-bottom: 1px solid $gray-lighter;
     }
   }
 }
