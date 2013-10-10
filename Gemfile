@@ -13,12 +13,13 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'faker'
 gem 'will_paginate' 
-gem 'bootstrap-will_paginate'
+gem 'will_paginate-bootstrap'
 gem 'leaflet-rails' 
-gem 'simple_form', '~> 3.0.0.rc'
+gem 'simple_form', github: 'zlx/simple_form_bootstrap3'
+
 
 gem 'sass-rails'
-
+gem 'font-awesome-sass-rails'
 gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
                           :github => 'anjlab/bootstrap-rails',
                           :branch => '3.0.0'

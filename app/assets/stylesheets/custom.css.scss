@@ -1,4 +1,11 @@
+$navbar-height: 35px;
+$grid-gutter-width: 30px;
+$font-family-base: 'FontAwesome';
+//$navbar-inverse-bg: #111;
+
 @import "twitter/bootstrap";
+@import "font-awesome";
+
 
 /* mixins, variables, etc. */
 @mixin box_sizing {
@@ -9,6 +16,14 @@
 
 $grayMediumLight: #eaeaea;
 
+.container {
+  max-width: 970px
+}
+
+.no-gutter {
+  margin:  0;
+  padding: 0; 
+}
 /* universal */
 html {
   overflow-y: scroll;
@@ -48,6 +63,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  font-weight: bolder; 
 }
 
 h2 {
@@ -76,12 +92,12 @@ h4 {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: .95em;
   line-height: 1.7em;
 }
 
 
-/* header */
+/* 5eader */
 
 #logo {
   float: left;
@@ -90,7 +106,6 @@ p {
   color: white;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 9px;
   font-weight: bold;
   line-height: 1;
   &:hover {
@@ -98,6 +113,7 @@ p {
     text-decoration: none;
   }
 }
+
 
 /* footer */
 
@@ -193,7 +209,8 @@ input {
 
 .users {
   list-style: none;
-  margin: 0;
+  margin:  0;
+  padding: 0; 
   li {
     overflow: auto;
     padding: 10px 0;
