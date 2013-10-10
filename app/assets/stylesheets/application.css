@@ -12,6 +12,6 @@
  *= require leaflet
  *= require leaflet.ie
  *= require twitter/bootstrap
- *= require _font-awesome
+ *= require font-awesome
  *= require_tree .
  */

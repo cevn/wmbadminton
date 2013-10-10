@@ -25,7 +25,7 @@
         </ul> 
           <li>The facility closes promptly at 7:00pm</li> 
       </ul> 
-    </div>
+     </div>
       <div class="col-md-3 no-gutter"> 
         <h2>Format and Events</h2> 
         <ul> 
@@ -55,9 +55,12 @@
     <div class="col-md-4"> 
       <%= link_to "Sign up for tournament online", signup_path, class: "btn btn-lg btn-primary" %>
     </div> 
-    <div class="col-md-4"> 
-        <%= link_to "Sign up by mail", "/registration.pdf", class: "btn btn-success btn-lg" %>
-    </div> 
+    
+    <div class="col-md-4">
+      <a class="btn btn-success btn-lg" href="/registration.pdf" >
+        <%= fa_icon "file" %> Sign up by mail</a>
+    </div>
+
     <div class="col-md-4"> 
       <%= link_to "View tournament rules", rules_path, class: "btn btn-lg btn-info" %> 
     </div> 

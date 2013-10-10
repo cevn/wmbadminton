@@ -17,14 +17,15 @@
   <div class="row text-center"> 
     <div class="col-md-4"> 
       <a class="btn btn-default" href="mailto:badmintonwm@gmail.com">
-      <span class='glyphicon glyphicon-envelope'></span> badmintonwm@gmail.com</a> 
+        <%= fa_icon "envelope" %> badmintonwm@gmail.com</a> 
     </div> 
     <div class="col-md-4"> 
       <a class="btn btn-default" href="mailto:sdhar@email.wm.edu">
-      <span class='glyphicon glyphicon-envelope'></span> sdhar@email.wm.edu</a> 
+        <%= fa_icon "envelope" %> sdhar@email.wm.edu</a> 
     </div>
     <div class="col-md-4">
-      <%= link_to "<span class=\'glyphicon glyphicon-file\'></span> Registration Form".html_safe, "/registration.pdf", class: "btn btn-info" %>
+      <a class="btn btn-info" href="/registration.pdf">
+        <%= fa_icon "file" %> Registration Form</a>
     </div> 
   </div>
 </div> 
