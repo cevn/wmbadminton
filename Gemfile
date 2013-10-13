@@ -24,10 +24,12 @@ gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
                           :github => 'anjlab/bootstrap-rails',
                           :branch => '3.0.0'
 
+gem 'devise'
+
+group :development do
+  gem 'mailcatcher'
+end
+
 group :doc do
   gem 'sdoc', require: false
 end
-
-# Use ActiveModel has_secure_password
-gem 'bcrypt-ruby', '~> 3.0.0'
-
