@@ -41,7 +41,7 @@ ActiveRecord::Schema.define(version: 20131013165528) do
     t.boolean  "md"
     t.boolean  "wd"
     t.boolean  "xd"
-    t.boolean  "paid"
+    t.boolean  "paid",               default: false
     t.string   "md_partner"
     t.string   "wd_partner"
     t.string   "xd_partner"
