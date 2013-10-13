@@ -3,7 +3,6 @@ WMBadminton::Application.routes.draw do
   root 'static_pages#home'
 
   resources :players
-  resources :sessions, only: [:new, :create, :destroy] 
 
   match '/signup',      to: 'players#new',              via: 'get'
   match '/signin',      to: 'sessions#new',             via: 'get'

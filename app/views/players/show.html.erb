@@ -1,0 +1,41 @@
+<% provide(:title, @player.name) %>
+<div class="container">
+  <table class="table table-bordered"> 
+    <tr>
+      <td><b>Paid</b></td>
+      <td><b>Events</b></td> 
+      <td><b>MD Partner</b></td>
+      <td><b>WD Partner</b></td>
+      <td><b>XD Partner</b></td>
+      <td><b>Club</b></td>
+    </tr>
+    <tr>
+      <td><%= @player.paid %></td>  
+      <td>
+        <% if @player.md %>
+            <%= 'MD ' %> 
+        <% end %> 
+        <% if @player.wd %>
+            <%= 'WD ' %> 
+        <% end %> 
+        <% if @player.xd %>
+            <%= 'XD' %> 
+        <% end %> 
+      </td> 
+
+      <td> 
+        <%= @player.md_partner %> 
+      </td> 
+      <td> 
+        <%= @player.wd_partner %> 
+      </td> 
+      <td> 
+        <%= @player.xd_partner %> 
+      </td> 
+      <td> 
+        <%= @player.club %> 
+      </td> 
+    </tr>
+  </table> 
+</div>
+
