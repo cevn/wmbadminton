@@ -11,9 +11,34 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20131013161820) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "players", force: true do |t|
+    t.string   "name"
+    t.string   "email"
+    t.boolean  "md"
+    t.boolean  "wd"
+    t.boolean  "xd"
+    t.boolean  "paid"
+    t.string   "md_partner"
+    t.string   "wd_partner"
+    t.string   "xd_partner"
+    t.string   "address_street"
+    t.string   "address_city_state"
+    t.string   "address_zip"
+    t.string   "phone"
+    t.string   "club"
+    t.string   "gender"
+    t.integer  "fees"
+    t.string   "signature"
+    t.string   "skill"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "players", ["email"], name: "index_players_on_email", unique: true, using: :btree
 
 end

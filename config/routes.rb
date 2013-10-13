@@ -1,10 +1,11 @@
 WMBadminton::Application.routes.draw do
+  devise_for :admins
   root 'static_pages#home'
 
-  resources :users
+  resources :players
   resources :sessions, only: [:new, :create, :destroy] 
 
-  match '/signup',      to: 'users#new',                via: 'get'
+  match '/signup',      to: 'players#new',              via: 'get'
   match '/signin',      to: 'sessions#new',             via: 'get'
   match '/signout',     to: 'sessions#destroy',         via: 'delete'
   match '/help',        to: 'static_pages#help',        via: 'get'
