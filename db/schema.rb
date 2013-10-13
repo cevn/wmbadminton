@@ -11,36 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131007180827) do
+ActiveRecord::Schema.define(version: 0) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "users", force: true do |t|
-    t.string   "name"
-    t.string   "email"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "remember_token"
-    t.boolean  "admin",              default: false
-    t.boolean  "md"
-    t.boolean  "xd"
-    t.boolean  "wd"
-    t.boolean  "paid",               default: false
-    t.string   "md_partner"
-    t.string   "wd_partner"
-    t.string   "xd_partner"
-    t.string   "address_street"
-    t.string   "address_city_state"
-    t.string   "address_zip"
-    t.string   "phone"
-    t.string   "club"
-    t.string   "gender"
-    t.integer  "fees"
-    t.string   "signature"
-    t.string   "skill"
-  end
-
-  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
 
 end
