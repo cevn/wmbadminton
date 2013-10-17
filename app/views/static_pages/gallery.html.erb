@@ -1,4 +1,5 @@
 <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+
 <div id="blueimp-gallery" class="blueimp-gallery">
     <!-- The container for the modal slides -->
     <div class="slides"></div>
@@ -33,10 +34,10 @@
     </div>
 </div>
 
-<div id="links">
+<div id="links col-md-12">
   <% @images.each do |image| %> 
     <%= link_to asset_path("gallery/#{image.split('/').last}") do %>
-      <%= image_tag asset_path("gallery/#{image.split('/').last}"), :class => "thumbnail" %>
+      <%= image_tag asset_path("gallery/#{image.split('/').last}"), :class => "thumbnail nohover" %>
     <% end %>
   <% end %>
 

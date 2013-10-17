@@ -16,9 +16,18 @@ $font-family-base: 'FontAwesome';
 
 $grayMediumLight: #eaeaea;
 
+
+// Custom classes for personal use: thumbnail, container, no-gutter
+
+.nohover {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 .thumbnail {
-  height: 100px; 
-  width: 100px; 
+  height: 200px; 
+  width: 200px; 
   display: inline;
 } 
 
