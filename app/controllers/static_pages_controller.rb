@@ -1,4 +1,5 @@
 class StaticPagesController < ApplicationController
+
   def home
   end
 
@@ -20,5 +21,4 @@ class StaticPagesController < ApplicationController
   def gallery
     @images = Dir.glob("app/assets/images/gallery/*.{gif,jpg,png}")
   end
-
 end

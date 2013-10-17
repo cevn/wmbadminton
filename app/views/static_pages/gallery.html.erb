@@ -34,13 +34,14 @@
     </div>
 </div>
 
-<div id="links col-md-12">
+<div class="col-md-12 text-center">
+<div id="links">
   <% @images.each do |image| %> 
     <%= link_to asset_path("gallery/#{image.split('/').last}") do %>
       <%= image_tag asset_path("gallery/#{image.split('/').last}"), :class => "thumbnail nohover" %>
     <% end %>
   <% end %>
-
+</div>
 </div>
 
 <script>
