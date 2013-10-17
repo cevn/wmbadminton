@@ -60,6 +60,9 @@ GEM
       railties (>= 3.2.6, < 5)
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
+    dragonfly (0.9.15)
+      multi_json (~> 1.0)
+      rack
     erubis (2.7.0)
     eventmachine (1.0.3)
     execjs (2.0.1)
@@ -99,6 +102,8 @@ GEM
     pg (0.17.0)
     polyglot (0.3.3)
     rack (1.5.2)
+    rack-cache (1.2)
+      rack (>= 0.4)
     rack-protection (1.5.0)
       rack
     rack-test (0.6.2)
@@ -181,6 +186,7 @@ DEPENDENCIES
   anjlab-bootstrap-rails!
   coffee-rails (~> 4.0.0)
   devise
+  dragonfly (~> 0.9.15)
   faker
   font-awesome-rails
   jbuilder (~> 1.2)
@@ -188,6 +194,7 @@ DEPENDENCIES
   leaflet-rails
   mailcatcher
   pg
+  rack-cache
   rails (= 4.0.0)
   rails_12factor
   sass-rails

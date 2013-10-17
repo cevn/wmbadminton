@@ -17,4 +17,7 @@ class StaticPagesController < ApplicationController
   def rules
   end
 
+  def gallery
+  end
+
 end

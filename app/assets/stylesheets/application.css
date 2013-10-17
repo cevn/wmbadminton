@@ -13,5 +13,7 @@
  *= require leaflet.ie
  *= require twitter/bootstrap
  *= require font-awesome
+ *= require blueimp-gallery.min.css
+ *= require bootstrap-image-gallery.min.css
  *= require_tree .
  */
