@@ -16,6 +16,13 @@ $font-family-base: 'FontAwesome';
 
 $grayMediumLight: #eaeaea;
 
+.thumbnail {
+  height: 100px; 
+  width: 100px; 
+  display: inline;
+} 
+
+
 .container {
   max-width: 970px
 }

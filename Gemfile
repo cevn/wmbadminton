@@ -33,7 +33,6 @@ end
 gem 'rack-cache', :require => 'rack/cache'   # cache thumbnails
 gem 'dragonfly', '~>0.9.15'                  # thumbnailer for rails
 gem 'jquery-rails'
-##gem 'rmagick'
 
 group :doc do
   gem 'sdoc', require: false

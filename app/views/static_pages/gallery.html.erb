@@ -34,9 +34,12 @@
 </div>
 
 <div id="links">
-    <a href="<%= asset_path('Badminton-7.jpg') %>" title="Banana" data-gallery>
-      <img src="<%= asset_path('thumbs/badminton-7.png') %>" alt="Badminton 7">
-    </a>
+  <% @images.each do |image| %> 
+    <%= link_to asset_path("gallery/#{image.split('/').last}") do %>
+      <%= image_tag asset_path("gallery/#{image.split('/').last}"), :class => "thumbnail" %>
+    <% end %>
+  <% end %>
+
 </div>
 
 <script>
