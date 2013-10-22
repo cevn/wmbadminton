@@ -21,4 +21,7 @@ class StaticPagesController < ApplicationController
   def gallery
     @images = Dir.glob("app/assets/images/gallery/*.{gif,jpg,png}")
   end
+
+  def teamlist
+  end
 end
