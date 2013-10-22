@@ -4,6 +4,18 @@ class PlayersController < ApplicationController
     @player= Player.find(params[:id])
   end
 
+  def update
+    @player = Player.find(params[:id])
+    if admin_signed_in? 
+      if @player.update_attributes(player_params)
+        flash[:success] = "Profile updated"
+        redirect_to @player
+      end
+    else
+      render 'edit'
+    end
+  end
+
   def new
     @player = Player.new
   end
