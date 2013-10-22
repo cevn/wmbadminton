@@ -191,10 +191,6 @@ aside {
   }
 }
 
-.gravatar {
-  float: left;
-  margin-right: 10px;
-}
 
 /* forms */
 
@@ -220,6 +216,24 @@ input {
 .field_with_errors {
   @extend .control-group;
   @extend .error;
+}
+
+/* Devise flash messages */ 
+
+.flash {
+  text-align: center;
+  width: 100%;
+  padding: 10px 0 10px 0;
+  margin-top: 1em;
+  color: #333333;
+  border: 1px solid black; 
+}
+
+/*
+ Flash message styles
+*/
+.notice {
+  background: #fefad9; 
 }
 
 /* Users index */
