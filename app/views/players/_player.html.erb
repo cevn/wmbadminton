@@ -6,8 +6,8 @@
 
       <% if admin_signed_in? %>
         | <%= link_to "delete", player, method: :delete,
-                                      data: { confirm: "You sure?" } %>
-                                    | <%= link_to "edit", player, method: :update %>
+                                        data: { confirm: "You sure?" }, class: "btn btn-small btn-danger" %>
+        | <%= link_to "edit", player, method: :update, class: "btn btn-small btn-info" %>
       <% end %>
 
     </div>
