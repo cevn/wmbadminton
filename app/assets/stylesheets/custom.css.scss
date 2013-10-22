@@ -220,21 +220,27 @@ input {
 
 /* Devise flash messages */ 
 
-.flash {
+.alert {
+  margin-left: auto; 
+  margin-right: auto; 
+  display: block; 
+  float: none; 
+
   text-align: center;
-  width: 100%;
-  padding: 10px 0 10px 0;
-  margin-top: 1em;
-  color: #333333;
-  border: 1px solid black; 
+  width: 50%; 
+
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: $gray-darker;
 }
 
 /*
  Flash message styles
 */
-.notice {
-  background: #fefad9; 
-}
+
 
 /* Users index */
 
