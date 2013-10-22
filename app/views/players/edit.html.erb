@@ -1,27 +1,30 @@
 <% provide(:title, "Edit player") %>
 <h1>Update a player's profile</h1>
 
-<div class="row">
-  <div class="span6 offset3">
-    <%= form_for(@player) do |f| %>
+  <div class="col-md-6 col-md-offset-3">
+    <%= simple_form_for(@player, html: {class: 'form-horizontal spacer' }) do |f| %>
       <%= render 'shared/error_messages' %>
 
-      <%= f.label :name %>
-      <%= f.text_field :name %>
+      <%= f.input :name %> 
+      <%= f.input :gender, collection: 'Male,Female'.split(',') %>
+      <%= f.input :email %>
+      <%= f.input :address_street,      label: 'Street address'  %> 
+      <%= f.input :address_city_state,  label: 'City, State' %> 
+      <%= f.input :address_zip,         label: 'Zipcode' %> 
+      <%= f.input :phone, as: :tel,     label: 'Phone Number' %> 
+      <%= f.input :club %> 
 
-      <%= f.label :email %>
-      <%= f.text_field :email %>
+      <%= f.input :skill, collection: 'A,B,C,D'.split(',') %> 
 
-      <%= f.label :password %>
-      <%= f.password_field :password %>
 
-      <%= f.label :password_confirmation, "Confirm Password" %>
-      <%= f.password_field :password_confirmation %>
+      <%= f.input_field :md_partner, label: 'MD Partner' %>
+      <%= f.input_field :wd_partner, label: 'WD Partner' %>
+      <%= f.input_field :xd_partner, label: 'XD Partner' %>
+
+      <p>Enter how much you have to pay. Fees are $15 per event, plus a $10 facility fee. 
+      <%= f.input :fees, :class => 'input-small'  %>
 
       <%= f.submit "Save changes", class: "btn btn-lg btn-primary" %>
     <% end %>
 
-    <%= gravatar_for @player %>
-    <a href="http://gravatar.com/emails">change</a>
   </div>
-</div>
