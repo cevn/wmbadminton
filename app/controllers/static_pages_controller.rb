@@ -24,4 +24,13 @@ class StaticPagesController < ApplicationController
 
   def teamlist
   end
+
+  def md
+  end
+
+  def wd
+  end
+
+  def xd
+  end
 end

@@ -15,6 +15,10 @@ WMBadminton::Application.routes.draw do
   match '/gallery',     to: 'static_pages#gallery',     via: 'get'
   match '/teamlist',    to: 'static_pages#teamlist',    via: 'get'
 
+  match '/md',          to: 'static_pages#md',          via: 'get'
+  match '/wd',          to: 'static_pages#wd',          via: 'get'
+  match '/xd',          to: 'static_pages#xd',          via: 'get'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
