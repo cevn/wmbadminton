@@ -19,6 +19,10 @@ $grayMediumLight: #eaeaea;
 
 // Custom classes for personal use: thumbnail, container, no-gutter
 
+.nowrap { 
+  white-space: nowrap;
+}
+
 .nohover {
   &:hover {
     text-decoration: none;
