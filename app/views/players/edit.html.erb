@@ -17,9 +17,9 @@
       <%= f.input :skill, collection: 'A,B,C,D'.split(',') %> 
 
 
-      <%= f.input_field :md_partner, label: 'MD Partner' %>
-      <%= f.input_field :wd_partner, label: 'WD Partner' %>
-      <%= f.input_field :xd_partner, label: 'XD Partner' %>
+      <%= f.input :md_partner, label: 'MD Partner' %>
+      <%= f.input :wd_partner, label: 'WD Partner' %>
+      <%= f.input :xd_partner, label: 'XD Partner' %>
 
       <p>Enter how much you have to pay. Fees are $15 per event, plus a $10 facility fee. 
       <%= f.input :fees, :class => 'input-small'  %>
