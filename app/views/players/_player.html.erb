@@ -5,9 +5,9 @@
       <%= link_to player.name, player %>
 
       <% if admin_signed_in? %>
-        | <%= link_to "delete", player, method: :delete,
-                                        data: { confirm: "You sure?" }, class: "btn btn-small btn-danger" %>
-        | <%= link_to "edit", player, method: :update, class: "btn btn-small btn-info" %>
+        <%= link_to "delete", player, method: :delete,
+                                        data: { confirm: "You sure?" }, class: "btn btn-sm btn-danger" %>
+        <%= link_to "edit", player, method: :update, class: "btn btn-sm btn-info" %>
       <% end %>
 
     </div>
