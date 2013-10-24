@@ -1,7 +1,7 @@
 <li>
 <div class="container">
   <div class="row"> 
-    <div class="col-md-4 text-left"> 
+    <div class="col-md-6 text-left"> 
       <%= link_to player.name, player %>
     </div>
 
@@ -13,7 +13,7 @@
         <%= link_to "edit", edit_player_path(player), class: "btn btn-xs btn-info" %>
       <% end %>
     </div>
-    <div class="col-md-2 col-md-offset-2 text-right"> 
+    <div class="col-md-2 text-right"> 
       Paid: <%= player.paid %>
     </div> 
 
