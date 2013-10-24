@@ -1,10 +1,14 @@
 <% provide(:title, 'All entries') %>
 <h1>All entries</h1>
 
-<%= will_paginate @players, renderer: BootstrapPagination::Rails, bootstrap: 3 %>
+<div class="text-center">
+  <%= will_paginate @players, renderer: BootstrapPagination::Rails, bootstrap: 3 %>
+</div>
 
 <ul class="players">
   <%= render @players %>
 </ul>
 
-<%= will_paginate @players, renderer: BootstrapPagination::Rails, bootstrap: 3 %>
+<div class="text-center">
+  <%= will_paginate @players, renderer: BootstrapPagination::Rails, bootstrap: 3 %>
+</div> 
