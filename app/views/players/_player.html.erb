@@ -1,11 +1,11 @@
 <li>
 <div class="container">
   <div class="row"> 
-    <div class="col-md-10 text-left"> 
+    <div class="col-md-8 text-left"> 
       <%= link_to player.name, player %>
     </div>
 
-    <div class="col-md-2 text-right"> 
+    <div class="col-md-4 text-right"> 
       <% if admin_signed_in? %>
         <%= link_to "delete", player, method: :delete,
                                       data: { confirm: "You sure?" }, class: "btn btn-xs btn-danger" %>
