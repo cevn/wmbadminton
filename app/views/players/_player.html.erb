@@ -1,7 +1,7 @@
 <li>
 <div class="container">
   <div class="row"> 
-    <div class="col-md-4 text-left"> 
+    <div class="col-md-8 text-left"> 
       <%= link_to player.name, player %>
 
       <% if admin_signed_in? %>
@@ -12,13 +12,13 @@
 
     </div>
 
-    <div class="col-md-2 col-md-offset-6 text-right"> 
+    <div class="col-md-2 col-md-offset-4 text-right"> 
       Paid: <%= player.paid %>
     </div> 
 
   </div>
   <div class="row"> 
-    <div class="col-md-3"> 
+    <div class="col-md-8"> 
       <%= player.club %>
     </div> 
 </div> 
