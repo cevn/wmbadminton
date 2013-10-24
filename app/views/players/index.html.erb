@@ -5,9 +5,11 @@
   <%= will_paginate @players, renderer: BootstrapPagination::Rails, bootstrap: 3 %>
 </div>
 
-<ul class="players">
-  <%= render @players %>
-</ul>
+<div class="col-md-8 col-md-offset-2"> 
+  <ul class="players">
+    <%= render @players %>
+  </ul>
+</div> 
 
 <div class="text-center">
   <%= will_paginate @players, renderer: BootstrapPagination::Rails, bootstrap: 3 %>
