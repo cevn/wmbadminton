@@ -6,12 +6,12 @@
     </div>
 
     <div class="col-md-4 text-right"> 
+      Paid: <%= player.paid %>
       <% if admin_signed_in? %>
         <%= link_to "delete", player, method: :delete,
                                       data: { confirm: "You sure?" }, class: "btn btn-xs btn-danger" %>
         <%= link_to "edit", edit_player_path(player), class: "btn btn-xs btn-info" %>
       <% end %>
-      Paid: <%= player.paid %>
     </div> 
 
   </div>
