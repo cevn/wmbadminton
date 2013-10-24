@@ -1,6 +1,9 @@
 class Player < ActiveRecord::Base
   before_save { self.email = email.downcase }
 
+
+  self.per_page = 10
+
   validates :name, presence: true, length: { maximum: 30 }
 
   validates :signature, presence: true
