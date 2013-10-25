@@ -21,7 +21,7 @@ class PlayersController < ApplicationController
   end
 
   def index
-    @players = Player.paginate(page: params[:page])
+    @players = Player.paginate(page: params[:page]).order('id DESC')
   end
 
   def create
