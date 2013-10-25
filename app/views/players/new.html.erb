@@ -29,12 +29,17 @@
 
       <%= f.input :md, as: :boolean, label: 'MD' %>
       <%= f.input_field :md_partner %>
+      <span class="help-block">Men's doubles is full, but we're allowing people to
+        add their entry to the wait list. </span>
 
       <%= f.input :wd, as: :boolean, label: 'WD' %>
       <%= f.input_field :wd_partner %>
 
-      <%= f.input :xd, as: :boolean, label: 'XD' %>
-      <%= f.input_field :xd_partner %>
+
+      <%= f.input :xd, as: :boolean, label: 'XD', disabled: true %>
+      <%= f.input_field :xd_partner, disabled: true %>
+      <span class="help-block">Mixed doubles is completely full right now - sorry!</span> 
+     
 
       <p>Enter how much you have to pay. Fees are $15 per event, plus a $10 facility fee. 
       <%= f.input :fees, :class => 'input-small'  %>
