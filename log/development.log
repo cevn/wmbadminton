@@ -4,3 +4,249 @@ Started GET "/" for 127.0.0.1 at 2013-09-17 11:07:08 -0400
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/sameer/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
 Completed 200 OK in 35ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 276ms (Views: 257.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:56 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:57 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:57 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:57 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:57 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:57 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:57 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-25 14:00:57 -0400
+
+
+Started GET "/assets/Badminton-6.jpg" for 127.0.0.1 at 2013-10-25 14:00:57 -0400
+
+
+Started GET "/assets/Badminton-6.jpg" for 127.0.0.1 at 2013-10-25 14:00:57 -0400
+
+
+Started GET "/assets/Badminton-6.jpg" for 127.0.0.1 at 2013-10-25 14:03:31 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/Badminton-6.jpg" for 127.0.0.1 at 2013-10-25 14:03:31 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-25 14:03:32 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 264ms (Views: 245.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/Badminton-6.jpg" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
+
+
+Started GET "/assets/Badminton-6.jpg" for 127.0.0.1 at 2013-10-25 14:03:33 -0400
