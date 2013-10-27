@@ -6,8 +6,8 @@
     <li><%= link_to "Mixed Doubles", xd_path %></li>
 </ul>
 
-
 <div class="col-md-8 col-md-offset-2"> 
+  <h2 class="spacer">Men's Doubles</h2> 
   <table class="table table-hover spacer">
     <thead>
     <tr>
@@ -62,7 +62,7 @@
     <tr>
       <td>7</td>
       <td>Michael Crawshaw</td> 
-      <td>Jun Yu</td>
+      <td><%= link_to "Jun Yu", player_path(11) %></td>
       <td>Virginia Beach</td> 
     </tr> 
 
@@ -131,3 +131,25 @@
     </tbody>
   </table>
 </div> 
+
+<div class="col-md-8 col-md-offset-2">
+  <h2 class="spacer">Wait List</h2>
+  <table class="table table-hover spacer"> 
+    <thead>
+      <tr>
+        <th></th>
+        <th>Partner 1</th> 
+        <th>Partner 2</th> 
+        <th>Club</th> 
+      </tr> 
+    </thead>
+
+    <tbody> 
+      <tr>
+        <td>1</td>
+        <td>Chunwang Gao</td> 
+        <td>Weiping Yang</td>
+        <td>University of Richmond</td>
+    </tbody> 
+  </table> 
+</div>
