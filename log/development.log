@@ -1660,3 +1660,5070 @@ Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:18:14 -0400
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:18:14 -0400
+
+
+Started GET "/players" for 127.0.0.1 at 2013-10-29 11:20:58 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.9ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (9.7ms)
+  Rendered players/index.html.erb within layouts/application (318.3ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 609ms (Views: 548.4ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:20:59 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:20:59 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:20:59 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:20:59 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:20:59 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:20:59 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:20:59 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:20:59 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:20:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:20:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:20:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:20:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:20:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:20:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:00 -0400
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:01 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:01 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:01 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:01 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:01 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:01 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:01 -0400
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:01 -0400
+
+
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:01 -0400
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:01 -0400
+
+
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:01 -0400
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:01 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:01 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:01 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:01 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:01 -0400
+
+
+Started GET "/players?utf8=%E2%9C%93&q%5Bname_cont%5D=Sameer&commit=Search" for 127.0.0.1 at 2013-10-29 11:21:04 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>"Sameer"}, "commit"=>"Search"}
+  [1m[35m (2.9ms)[0m  SELECT COUNT(*) FROM "players" WHERE ("players"."name" ILIKE '%Sameer%')
+  [1m[36mPlayer Load (0.6ms)[0m  [1mSELECT "players".* FROM "players" WHERE ("players"."name" ILIKE '%Sameer%') ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (1.5ms)
+  Rendered players/index.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 37ms (Views: 30.6ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:05 -0400
+
+
+Started GET "/players?utf8=%E2%9C%93&q%5Bname_cont%5D=asdf&commit=Search" for 127.0.0.1 at 2013-10-29 11:21:08 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>"asdf"}, "commit"=>"Search"}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "players" WHERE ("players"."name" ILIKE '%asdf%')
+  [1m[36mPlayer Load (0.7ms)[0m  [1mSELECT "players".* FROM "players" WHERE ("players"."name" ILIKE '%asdf%') ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (1.6ms)
+  Rendered players/index.html.erb within layouts/application (12.7ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 35ms (Views: 30.6ms | ActiveRecord: 1.5ms)
+
+
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:09 -0400
+
+
+Started GET "/players?utf8=%E2%9C%93&q%5Bname_cont%5D=&commit=Search" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>""}, "commit"=>"Search"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (1.8ms)
+  Rendered players/index.html.erb within layouts/application (10.8ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 68ms (Views: 65.9ms | ActiveRecord: 1.0ms)
+
+
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:21:11 -0400
+
+
+Started GET "/players?utf8=%E2%9C%93&q%5Bname_cont%5D=&commit=Search" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>""}, "commit"=>"Search"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (3.4ms)
+  Rendered players/index.html.erb within layouts/application (11.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 28ms (Views: 25.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:07 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:08 -0400
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:08 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:08 -0400
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:08 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:08 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:08 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:08 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:08 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:08 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:08 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:08 -0400
+
+
+Started GET "/players?utf8=%E2%9C%93&q%5Bname_cont%5D=&commit=Search" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>""}, "commit"=>"Search"}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.7ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.3ms)
+  Rendered players/index.html.erb within layouts/application (52.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 74ms (Views: 70.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:23:10 -0400
+
+
+Started GET "/players?utf8=%E2%9C%93&q%5Bname_cont%5D=&commit=Search" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>""}, "commit"=>"Search"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.3ms)
+  Rendered players/index.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:25:01 -0400
+
+
+Started GET "/players?utf8=%E2%9C%93&q%5Bname_cont%5D=&commit=Search" for 127.0.0.1 at 2013-10-29 11:28:56 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>""}, "commit"=>"Search"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (1.9ms)
+  Rendered players/index.html.erb within layouts/application (43.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 60ms (Views: 57.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:28:57 -0400
+
+
+Started GET "/players?utf8=%E2%9C%93&q%5Bname_cont%5D=&commit=Search" for 127.0.0.1 at 2013-10-29 11:30:06 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>""}, "commit"=>"Search"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.6ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (1.7ms)
+  Rendered players/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 22ms (Views: 19.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:07 -0400
+
+
+Started GET "/players?utf8=%E2%9C%93&q%5Bname_cont%5D=&commit=Search" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>""}, "commit"=>"Search"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (41.1ms)
+  Rendered players/index.html.erb within layouts/application (45.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 58.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:16 -0400
+
+
+Started GET "/players?utf8=%E2%9C%93&q%5Bname_cont%5D=&commit=Search" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>""}, "commit"=>"Search"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (1.8ms)
+  Rendered players/index.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:32 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:33 -0400
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:33 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:33 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:33 -0400
+
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:33 -0400
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:33 -0400
+
+
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:33 -0400
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:33 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:33 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:30:33 -0400
+
+
+Started GET "/players?utf8=%E2%9C%93&q%5Bname_cont%5D=&commit=Search" for 127.0.0.1 at 2013-10-29 11:31:43 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"name_cont"=>""}, "commit"=>"Search"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (1.8ms)
+  Rendered players/index.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 60ms (Views: 57.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:44 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=Search" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>"Search"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (4.1ms)
+  Rendered players/index.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 26ms (Views: 23.2ms | ActiveRecord: 1.0ms)
+
+
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:46 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=Search" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>"Search"}
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.6ms)
+  Rendered players/index.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 72ms (Views: 69.8ms | ActiveRecord: 1.4ms)
+
+
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:47 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=Sameer&Submit=Search" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>"Sameer"}, "Submit"=>"Search"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players" WHERE ("players"."name" ILIKE '%Sameer%')
+  [1m[36mPlayer Load (0.6ms)[0m  [1mSELECT "players".* FROM "players" WHERE ("players"."name" ILIKE '%Sameer%') ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (1.2ms)
+  Rendered players/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 28ms (Views: 23.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:31:50 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=Sameer&Submit=Search" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>"Sameer"}, "Submit"=>"Search"}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "players" WHERE ("players"."name" ILIKE '%Sameer%')
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" WHERE ("players"."name" ILIKE '%Sameer%') ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (1.4ms)
+  Rendered players/index.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 57.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:09 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=Sameer&Submit=Search" for 127.0.0.1 at 2013-10-29 11:32:10 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>"Sameer"}, "Submit"=>"Search"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players" WHERE ("players"."name" ILIKE '%Sameer%')
+  [1m[36mPlayer Load (0.8ms)[0m  [1mSELECT "players".* FROM "players" WHERE ("players"."name" ILIKE '%Sameer%') ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (1.2ms)
+  Rendered players/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 30ms (Views: 26.4ms | ActiveRecord: 1.3ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:11 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.9ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.6ms)
+  Rendered players/index.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 74ms (Views: 70.1ms | ActiveRecord: 1.3ms)
+
+
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:12 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.6ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.1ms)
+  Rendered players/index.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 1.3ms)
+
+
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:32:16 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.6ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.3ms)
+  Rendered players/index.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 64ms (Views: 61.1ms | ActiveRecord: 1.0ms)
+
+
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:03 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 11:33:07 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.7ms)
+  Rendered players/index.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 27ms (Views: 25.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:07 -0400
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:07 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:07 -0400
+
+
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:07 -0400
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:07 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:07 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:07 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:07 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:07 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:08 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:08 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:08 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:08 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:08 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:08 -0400
+
+
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:08 -0400
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:08 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.7ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (1.8ms)
+  Rendered players/index.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 60ms (Views: 57.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:46 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:47 -0400
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:47 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:47 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:47 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:47 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:47 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:47 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:47 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:47 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=Sameer&Submit=" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>"Sameer"}, "Submit"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players" WHERE ("players"."name" ILIKE '%Sameer%')
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" WHERE ("players"."name" ILIKE '%Sameer%') ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (1.5ms)
+  Rendered players/index.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 24ms (Views: 21.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:50 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.6ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.9ms)
+  Rendered players/index.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 26.9ms | ActiveRecord: 1.1ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:33:53 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 11:35:06 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.8ms)
+  Rendered players/index.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 25ms (Views: 22.3ms | ActiveRecord: 1.0ms)
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:07 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.6ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.1ms)
+  Rendered players/index.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 1.0ms)
+
+
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:35:14 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.6ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.2ms)
+  Rendered players/index.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 1.1ms)
+
+
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:08 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 11:38:09 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (1.9ms)
+  Rendered players/index.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 1.2ms)
+
+
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:10 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=Sameer&Submit=" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>"Sameer"}, "Submit"=>""}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "players" WHERE ("players"."name" ILIKE '%Sameer%')
+  [1m[36mPlayer Load (0.8ms)[0m  [1mSELECT "players".* FROM "players" WHERE ("players"."name" ILIKE '%Sameer%') ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (1.2ms)
+  Rendered players/index.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 63ms (Views: 59.6ms | ActiveRecord: 1.5ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:12 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.6ms)
+  Rendered players/index.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.9ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:38:48 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 11:50:27 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (1.7ms)
+  Rendered players/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 60ms (Views: 57.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 11:51:52 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (1.7ms)
+  Rendered players/index.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:51:52 -0400
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:51:52 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:51:52 -0400
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:51:52 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:51:52 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:51:52 -0400
+
+
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:51:52 -0400
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:51:52 -0400
+
+
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:51:52 -0400
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:51:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:52 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:51:52 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:52 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:52 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:52 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:52 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:52 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:52 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:53 -0400
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:53 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:53 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:53 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:53 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:53 -0400
+
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:53 -0400
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:53 -0400
+
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:53 -0400
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:53 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:53 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:53 -0400
+
+
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:53 -0400
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:53 -0400
+
+
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:53 -0400
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:53 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:51:53 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 11:52:21 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.1ms)
+  Rendered players/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.9ms)
+
+
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 11:52:21 -0400
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 11:52:21 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 11:52:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 11:52:21 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 11:52:21 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:52:21 -0400
+
+
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 11:52:21 -0400
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 11:52:21 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 11:52:21 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 11:52:21 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:21 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 11:52:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:21 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:21 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:21 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:22 -0400
+
+
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:22 -0400
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:22 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:22 -0400
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:22 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:22 -0400
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:22 -0400
+
+
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:22 -0400
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:22 -0400
+
+
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:22 -0400
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:22 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 11:52:22 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (1.7ms)
+  Rendered players/index.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 26ms (Views: 22.6ms | ActiveRecord: 0.9ms)
+
+
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+
+
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+
+
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:44 -0400
+
+
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:45 -0400
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:45 -0400
+
+
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:45 -0400
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:45 -0400
+
+
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:45 -0400
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:45 -0400
+
+
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:45 -0400
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:45 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 12:19:46 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.2ms)
+  Rendered players/index.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 1.0ms)
+
+
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:46 -0400
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:46 -0400
+
+
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:46 -0400
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:46 -0400
+
+
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:46 -0400
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:46 -0400
+
+
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:46 -0400
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:46 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:46 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:46 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:46 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 12:19:46 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+
+
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+
+
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 12:19:47 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 12:22:14 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (1.7ms)
+  Rendered players/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:14 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:14 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:14 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:14 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:14 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:14 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:14 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:14 -0400
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:14 -0400
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:14 -0400
+
+
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:14 -0400
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:14 -0400
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:14 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:14 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:14 -0400
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:14 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:14 -0400
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:14 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:15 -0400
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:15 -0400
+
+
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:15 -0400
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:15 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:15 -0400
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:15 -0400
+
+
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:15 -0400
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:15 -0400
+
+
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:15 -0400
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:15 -0400
+
+
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:15 -0400
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:15 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 12:22:22 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.2ms)
+  Rendered players/index.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 1.0ms)
+
+
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:22 -0400
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:22 -0400
+
+
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:22 -0400
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:22 -0400
+
+
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:22 -0400
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:22 -0400
+
+
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:22 -0400
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:22 -0400
+
+
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:22 -0400
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:22 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:22 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:22 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:22 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:22 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:22 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:23 -0400
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:23 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:23 -0400
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:23 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:23 -0400
+
+
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:23 -0400
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:23 -0400
+
+
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:23 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:23 -0400
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:23 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:23 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 12:22:33 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.1ms)
+  Rendered players/index.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 24ms (Views: 21.5ms | ActiveRecord: 1.0ms)
+
+
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:34 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 12:22:44 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.4ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.5ms)
+  Rendered players/index.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:44 -0400
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:44 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:44 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:44 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:44 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:44 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:44 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:44 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:45 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.7ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.2ms)
+  Rendered players/index.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 62ms (Views: 59.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:47 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.3ms)
+  Rendered players/index.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 22ms (Views: 19.9ms | ActiveRecord: 1.0ms)
+
+
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 12:22:52 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 12:41:56 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (1.0ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (10.3ms)
+  Rendered players/index.html.erb within layouts/application (57.8ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 344ms (Views: 286.1ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 12:41:57 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 12:41:57 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 12:41:57 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:41:57 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 12:41:57 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 12:41:57 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:57 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:57 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:57 -0400
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 12:41:59 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 12:41:59 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:41:59 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 12:41:59 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 12:41:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:59 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:59 -0400
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:59 -0400
+
+
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:59 -0400
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:59 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:59 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:59 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:59 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:59 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:59 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:59 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 12:41:59 -0400
+
+
+Started GET "/players?q%5Bname_cont%5D=&Submit=" for 127.0.0.1 at 2013-10-29 12:43:41 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>""}, "Submit"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "players"
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (2.0ms)
+  Rendered players/index.html.erb within layouts/application (6.7ms)
+WARNING on line 216 of /Users/sameer/Documents/projects/school/wmbadminton/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".control-group".
+  The selector ".control-group" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .control-group !optional" if the extend should be able to fail.
+
+
+WARNING on line 217 of /Users/sameer/Documents/projects/school/wmbadminton/app/assets/stylesheets/custom.css.scss: ".field_with_errors" failed to @extend ".error".
+  The selector ".error" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .error !optional" if the extend should be able to fail.
+
+
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1370ms (Views: 1367.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 12:43:42 -0400
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 12:43:42 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 12:43:42 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 12:43:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 12:43:42 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:43:42 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:43:42 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 12:43:42 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 12:43:42 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 12:43:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:42 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 12:43:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+
+
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 12:43:43 -0400
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-10-29 12:43:55 -0400
+Processing by PlayersController#new as HTML
+  Rendered shared/_error_messages.html.erb (3.5ms)
+  Rendered players/new.html.erb within layouts/application (353.7ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 373ms (Views: 371.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/players?q%5Bname_cont%5D=Sameer&Submit=" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+Processing by PlayersController#index as HTML
+  Parameters: {"q"=>{"name_cont"=>"Sameer"}, "Submit"=>""}
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "players" WHERE ("players"."name" ILIKE '%Sameer%')
+  [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players" WHERE ("players"."name" ILIKE '%Sameer%') ORDER BY id ASC LIMIT 10 OFFSET 0[0m
+  Rendered players/_player.html.erb (1.2ms)
+  Rendered players/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 24ms (Views: 20.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/leaflet.css?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/leaflet.ie.css?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/holder.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/leaflet.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 12:45:09 -0400
