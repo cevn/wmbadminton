@@ -1,6 +1,13 @@
 <% provide(:title, 'All entries') %>
 <h1>All entries</h1>
 
+<nav class="navbar navbar-default" role="navigation"> 
+  <%= search_form_for @q do |f| %>
+    <%= f.label :name_cont %>
+    <%= f.text_field :name_cont %>
+    <%= f.submit %>
+  <% end %>
+</nav>
 <div class="text-center">
   <%= will_paginate @players, renderer: BootstrapPagination::Rails, bootstrap: 3 %>
 </div>

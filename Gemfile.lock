@@ -8,6 +8,15 @@ GIT
       sass (>= 3.2)
 
 GIT
+  remote: git://github.com/ernie/ransack.git
+  revision: 63b52638867923cee89c91a92770131608116906
+  specs:
+    ransack (1.0.0)
+      actionpack (>= 3.0)
+      activerecord (>= 3.0)
+      polyamorous (~> 0.6.0)
+
+GIT
   remote: git://github.com/zlx/simple_form_bootstrap3.git
   revision: 8fe2e4ef642296061a8a42e432685c896203af22
   specs:
@@ -100,6 +109,8 @@ GEM
     multi_json (1.8.2)
     orm_adapter (0.4.0)
     pg (0.17.0)
+    polyamorous (0.6.4)
+      activerecord (>= 3.0)
     polyglot (0.3.3)
     rack (1.5.2)
     rack-cache (1.2)
@@ -197,6 +208,7 @@ DEPENDENCIES
   rack-cache
   rails (= 4.0.0)
   rails_12factor
+  ransack!
   sass-rails
   sdoc
   simple_form!
