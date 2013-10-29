@@ -22,7 +22,7 @@ class PlayersController < ApplicationController
 
   def index
     @q = Player.search(params[:q])
-    @players = @q.result(:distinct => true).paginate(page: params[:page]).order('id ASC')
+    @players = @q.result.paginate(page: params[:page]).order('id ASC')
   end
 
   def create
