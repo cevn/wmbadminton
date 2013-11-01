@@ -27,17 +27,17 @@
       <p> Check the boxes for the categories and fill in a partner's name for each event 
       for which you want to sign up.</p> 
 
-      <%= f.input :md, as: :boolean, label: 'MD' %>
-      <%= f.input_field :md_partner %>
-      <span class="help-block">Signing up for men's will add you to the waitlist as the bracket is full.</span>
+      <%= f.input :md, as: :boolean, label: 'MD', disabled: true%>
+      <%= f.input_field :md_partner, disabled: true %>
+      <span class="help-block">Signing up for men's doubles is disabled as the wait list is full. </span>
 
       <%= f.input :wd, as: :boolean, label: 'WD' %>
       <%= f.input_field :wd_partner %>
 
 
-      <%= f.input :xd, as: :boolean, label: 'XD' %>
-      <%= f.input_field :xd_partner %>
-      <span class="help-block">Signing up for mixed will add you to the wait list as the bracket is full.</span> 
+      <%= f.input :xd, as: :boolean, label: 'XD', disabled: true %>
+      <%= f.input_field :xd_partner, disabled: true %>
+      <span class="help-block">Signing up for mixed is disabled as the wait list is full.</span>
      
 
       <p>Enter how much you have to pay. Fees are $15 per event, plus a $10 facility fee. 
