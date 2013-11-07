@@ -35,6 +35,11 @@ end
 
 group :production do
   gem 'rails_12factor'
+
+  ## Sitemap
+  gem 'sitemap_generator'
+  gem 'fog'
+  gem 'unf'
 end
 
 ## Image stuff
@@ -46,9 +51,6 @@ gem 'jquery-rails'
 ## User search
 gem 'ransack', github: "ernie/ransack"
 
-## Sitemap
-gem 'sitemap_generator'
-gem 'fog'
 
 
 group :doc do
