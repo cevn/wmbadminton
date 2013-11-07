@@ -21,7 +21,7 @@ WMBadminton::Application.routes.draw do
 
 
   # Sitemap stuff
-  match '/sitemap1.xml.gz' => 'sitemaps#show'
+  match '/sitemap.xml.gz' => 'sitemaps#show',           via: 'get'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
