@@ -12,7 +12,6 @@ gem 'pg'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
-gem 'faker'
 
 gem 'will_paginate' 
 gem 'will_paginate-bootstrap'
@@ -26,9 +25,11 @@ gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
                           :github => 'anjlab/bootstrap-rails',
                           :branch => '3.0.0'
 
+# Admin accounts
 gem 'devise'
 
 group :development do
+  gem 'faker'
   gem 'mailcatcher'
 end
 
@@ -37,12 +38,18 @@ group :production do
 end
 
 ## Image stuff
-
 gem 'rack-cache', :require => 'rack/cache'   # cache thumbnails
 gem 'dragonfly', '~>0.9.15'                  # thumbnailer for rails
 gem 'jquery-rails'
 
+
+## User search
 gem 'ransack', github: "ernie/ransack"
+
+## Sitemap
+gem 'sitemap_generator'
+gem 'fog'
+
 
 group :doc do
   gem 'sdoc', require: false
