@@ -20,6 +20,10 @@ WMBadminton::Application.routes.draw do
   match '/xd',          to: 'static_pages#xd',          via: 'get'
 
 
+  # Sitemap stuff
+  match '/sitemap1.xml.gz' => 'sitemaps#show'
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
