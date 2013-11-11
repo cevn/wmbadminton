@@ -19,6 +19,7 @@ WMBadminton::Application.routes.draw do
   match '/wd',          to: 'static_pages#wd',          via: 'get'
   match '/xd',          to: 'static_pages#xd',          via: 'get'
   match '/brackets',    to: 'static_pages#brackets',    via: 'get' 
+  match '/results',     to: 'static_pages#results',     via: 'get' 
 
 
   # Sitemap stuff

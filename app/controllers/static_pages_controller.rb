@@ -33,4 +33,7 @@ class StaticPagesController < ApplicationController
 
   def xd
   end
+
+  def results
+  end
 end
