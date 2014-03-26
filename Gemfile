@@ -11,17 +11,12 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
-gem 'will_paginate' 
 gem 'will_paginate-bootstrap'
-gem 'leaflet-rails' 
-gem 'simple_form', github: 'zlx/simple_form_bootstrap3'
-
-
 gem 'sass-rails'
+gem 'bootstrap-sass', '~> 3.1.1'
 gem 'font-awesome-rails'
-gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
-                          :github => 'anjlab/bootstrap-rails',
-                          :branch => '3.0.0'
+gem 'bootstrap_form'
+
 
 # Admin accounts
 gem 'devise'

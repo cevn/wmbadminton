@@ -13,8 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require twitter/bootstrap
 //= require jquery.blueimp-gallery.min.js
 //= require bootstrap-image-gallery.min.js
-//= require leaflet
 //= require_tree .

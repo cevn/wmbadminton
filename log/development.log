@@ -10077,3 +10077,2321 @@ Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-29 13:50:35 -0400
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-29 13:50:35 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:19:22 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (17.0ms)
+Completed 500 Internal Server Error in 34ms
+
+ActionView::Template::Error (undefined local variable or method `tournament_path' for #<#<Class:0x007fd261a3a1e8>:0x007fd261a32808>):
+    20:     <img src= <%= asset_path('Badminton-6.jpg') %> alt="Group picture!", class="img-rounded" >
+    21: 
+    22:     <div class="spacer">
+    23:       <%= link_to "Tournament info", tournament_path, class: "btn btn-lg btn-primary" %>
+    24:       <%= link_to "List of current entries", players_path, class: "btn btn-lg btn-primary" %>
+    25:       <%= link_to "List of current teams", teamlist_path, class: "btn btn-lg btn-primary" %>
+    26:     </div>
+  app/views/static_pages/home.html.erb:23:in `_app_views_static_pages_home_html_erb___3270567216821565249_70270793065400'
+
+
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.1ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2014-03-26 01:19:23 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.0.0) lib/rails/commands/server.rb:84:in `start'
+  railties (4.0.0) lib/rails/commands.rb:78:in `block in <top (required)>'
+  railties (4.0.0) lib/rails/commands.rb:73:in `tap'
+  railties (4.0.0) lib/rails/commands.rb:73:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.6ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (52.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:20:07 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 42ms
+
+ActionView::Template::Error (couldn't find file 'leaflet'
+  (in /Users/sameer/Documents/projects/school/wmbadminton/app/assets/stylesheets/application.css:12)):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag "application", media: "all",
+    6:                                            "data-turbolinks-track" => true %>
+    7:     <%= stylesheet_link_tag params[:controller] %>
+    8:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3768086422976520000_70327502838860'
+
+
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:22:23 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 2119ms (Views: 2108.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:22:25 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:22:25 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:22:25 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:22:25 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:22:25 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:22:25 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:22:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:22:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:22:25 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:22:25 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:22:25 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:22:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:22:25 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:22:25 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:22:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:22:25 -0400
+
+
+Started GET "/assets/Badminton-6.jpg" for 127.0.0.1 at 2014-03-26 01:22:26 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:25:14 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 360ms
+
+ActionView::Template::Error (File to import not found or unreadable: font-awesome.
+Load paths:
+  /Users/sameer/Documents/projects/school/wmbadminton/app/assets/images
+  /Users/sameer/Documents/projects/school/wmbadminton/app/assets/javascripts
+  /Users/sameer/Documents/projects/school/wmbadminton/app/assets/stylesheets
+  /Users/sameer/Documents/projects/school/wmbadminton/vendor/assets/images
+  /Users/sameer/Documents/projects/school/wmbadminton/vendor/assets/javascripts
+  /Users/sameer/Documents/projects/school/wmbadminton/vendor/assets/stylesheets
+  /Users/sameer/.rvm/gems/ruby-2.1.1/gems/bootstrap-sass-3.1.1.0/vendor/assets/fonts
+  /Users/sameer/.rvm/gems/ruby-2.1.1/gems/bootstrap-sass-3.1.1.0/vendor/assets/javascripts
+  /Users/sameer/.rvm/gems/ruby-2.1.1/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets
+  /Users/sameer/.rvm/gems/ruby-2.1.1/gems/turbolinks-1.3.0/lib/assets/javascripts
+  /Users/sameer/.rvm/gems/ruby-2.1.1/gems/jquery-rails-3.0.4/vendor/assets/javascripts
+  /Users/sameer/.rvm/gems/ruby-2.1.1/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  /Users/sameer/.rvm/gems/ruby-2.1.1/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets
+  (in /Users/sameer/Documents/projects/school/wmbadminton/app/assets/stylesheets/custom.css.scss:2)):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag "application", media: "all",
+    6:                                            "data-turbolinks-track" => true %>
+    7:     <%= stylesheet_link_tag params[:controller] %>
+    8:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  app/assets/stylesheets/custom.css.scss:2
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2996971503063869091_70301042999380'
+
+
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:25:33 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 793ms (Views: 792.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:25:34 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:25:34 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:25:34 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:25:34 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:25:34 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:25:34 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:25:34 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:25:34 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:25:34 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:25:34 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:25:34 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:25:34 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:25:34 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:25:34 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:25:34 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:25:34 -0400
+
+
+Started GET "/assets/Badminton-6.jpg" for 127.0.0.1 at 2014-03-26 01:25:34 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:26:31 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:26:31 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:26:31 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:26:31 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:26:31 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:26:31 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:26:31 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:26:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:26:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:26:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:26:31 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:26:31 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:26:31 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:26:31 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:26:31 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:26:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:26:31 -0400
+
+
+Started GET "/assets/Badminton-6.jpg" for 127.0.0.1 at 2014-03-26 01:26:31 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:27:14 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:14 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:14 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:14 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:14 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:14 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:14 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:14 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:14 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:14 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:14 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:14 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:14 -0400
+
+
+Started GET "/assets/Badminton-6.jpg" for 127.0.0.1 at 2014-03-26 01:27:14 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:27:16 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:16 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:16 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:16 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:16 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:16 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:16 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:16 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:16 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:16 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:16 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:16 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:16 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:16 -0400
+
+
+Started GET "/assets/Badminton-6.jpg" for 127.0.0.1 at 2014-03-26 01:27:16 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2014-03-26 01:27:24 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2014-03-26 01:27:24 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:24 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:24 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:24 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:24 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:24 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:24 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:24 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:24 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:24 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:24 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:24 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:24 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:27:30 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:27:30 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:30 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:30 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:30 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:30 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:30 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:30 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:27:30 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:30 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:30 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:30 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:30 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:30 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:30 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:30 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:30 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:27:30 -0400
+
+
+Started GET "/assets/Badminton-6.jpg" for 127.0.0.1 at 2014-03-26 01:27:30 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:29:28 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:29:28 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:29:28 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:29:28 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:29:28 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:29:28 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:29:28 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:29:28 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:29:28 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:29:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:29:29 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:29:29 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:29:29 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:29:29 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:29:29 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:29:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:29:29 -0400
+
+
+Started GET "/assets/Badminton-6.jpg" for 127.0.0.1 at 2014-03-26 01:29:29 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:29:57 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:29:57 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:29:57 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:29:57 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:29:57 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:29:57 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:29:57 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:29:57 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:29:57 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:29:57 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:29:57 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:29:57 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:29:57 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:29:57 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:29:57 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:29:57 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:29:57 -0400
+
+
+Started GET "/assets/Badminton-6.jpg" for 127.0.0.1 at 2014-03-26 01:29:57 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2014-03-26 01:30:02 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2014-03-26 01:30:02 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:30:02 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:30:02 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:30:02 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:30:02 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:30:02 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:30:02 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:30:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:30:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:30:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:30:02 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:30:02 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:30:02 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:30:02 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:30:02 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:30:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:30:02 -0400
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-03-26 01:30:04 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (11.9ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (undefined method `fa_icon' for #<#<Class:0x007fe0796fb308>:0x007fe07ecd0648>):
+    18:   <div class="row text-center"> 
+    19:     <div class="col-md-4 col-md-offset-2"> 
+    20:       <a class="btn btn-primary" href="mailto:badmintonwm@gmail.com">
+    21:         <%= fa_icon "envelope" %> badmintonwm@gmail.com</a> 
+    22:     </div> 
+    23:     <div class="col-md-4"> 
+    24:       <a class="btn btn-danger" href="mailto:sdhar@email.wm.edu">
+  app/views/static_pages/contact.html.erb:21:in `_app_views_static_pages_contact_html_erb__4460747108660586487_70301088373220'
+
+
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.9ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-03-26 01:30:04 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (12.4ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `fa_icon' for #<#<Class:0x007fe0796fb308>:0x007fe07eb00de0>):
+    18:   <div class="row text-center"> 
+    19:     <div class="col-md-4 col-md-offset-2"> 
+    20:       <a class="btn btn-primary" href="mailto:badmintonwm@gmail.com">
+    21:         <%= fa_icon "envelope" %> badmintonwm@gmail.com</a> 
+    22:     </div> 
+    23:     <div class="col-md-4"> 
+    24:       <a class="btn btn-danger" href="mailto:sdhar@email.wm.edu">
+  app/views/static_pages/contact.html.erb:21:in `_app_views_static_pages_contact_html_erb__4460747108660586487_70301087423700'
+
+
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2014-03-26 01:30:14 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:30:14 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:30:14 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:30:14 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:30:14 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:30:14 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:30:14 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:30:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:30:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:30:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:30:14 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:30:14 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:30:14 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:30:14 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:30:14 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:30:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:30:14 -0400
+
+
+Started GET "/gallery" for 127.0.0.1 at 2014-03-26 01:30:16 -0400
+Processing by StaticPagesController#gallery as HTML
+  Rendered static_pages/gallery.html.erb within layouts/application (10.8ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (undefined method `fa_icon' for #<#<Class:0x007fe0796fb308>:0x007fe07e52b0c8>):
+    23:                 <div class="modal-body next"></div>
+    24:                 <div class="modal-footer">
+    25:                     <button type="button" class="btn btn-default pull-left prev">
+    26:                       <%= fa_icon "chevron-left" %>
+    27:                       Previous
+    28:                     </button>
+    29:                     <button type="button" class="btn btn-primary next">
+  app/views/static_pages/gallery.html.erb:26:in `_app_views_static_pages_gallery_html_erb___3137713256742578953_70301084354260'
+
+
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.5ms)
+
+
+Started GET "/gallery" for 127.0.0.1 at 2014-03-26 01:30:16 -0400
+Processing by StaticPagesController#gallery as HTML
+  Rendered static_pages/gallery.html.erb within layouts/application (12.0ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (undefined method `fa_icon' for #<#<Class:0x007fe0796fb308>:0x007fe07c928010>):
+    23:                 <div class="modal-body next"></div>
+    24:                 <div class="modal-footer">
+    25:                     <button type="button" class="btn btn-default pull-left prev">
+    26:                       <%= fa_icon "chevron-left" %>
+    27:                       Previous
+    28:                     </button>
+    29:                     <button type="button" class="btn btn-primary next">
+  app/views/static_pages/gallery.html.erb:26:in `_app_views_static_pages_gallery_html_erb___3137713256742578953_70301069677060'
+
+
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/gallery" for 127.0.0.1 at 2014-03-26 01:32:06 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#gallery as HTML
+  Rendered static_pages/gallery.html.erb within layouts/application (55.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 145ms (Views: 135.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/gallery/Badminton-10.jpg" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/gallery/Badminton-11.jpg" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/gallery/Badminton-14.jpg" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/gallery/Badminton-6.jpg" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/assets/gallery/Badminton-7.jpg" for 127.0.0.1 at 2014-03-26 01:32:07 -0400
+
+
+Started GET "/img/play-pause.svg" for 127.0.0.1 at 2014-03-26 01:32:13 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/play-pause.svg"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.0.0) lib/rails/commands/server.rb:84:in `start'
+  railties (4.0.0) lib/rails/commands.rb:78:in `block in <top (required)>'
+  railties (4.0.0) lib/rails/commands.rb:73:in `tap'
+  railties (4.0.0) lib/rails/commands.rb:73:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.2ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.5ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (58.0ms)
+
+
+Started GET "/img/loading.gif" for 127.0.0.1 at 2014-03-26 01:32:13 -0400
+
+ActionController::RoutingError (No route matches [GET] "/img/loading.gif"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.0.0) lib/rails/commands/server.rb:84:in `start'
+  railties (4.0.0) lib/rails/commands.rb:78:in `block in <top (required)>'
+  railties (4.0.0) lib/rails/commands.rb:73:in `tap'
+  railties (4.0.0) lib/rails/commands.rb:73:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.6ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (54.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-03-26 01:32:17 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-03-26 01:32:17 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:18 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:18 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:18 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:18 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:18 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:18 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:18 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:18 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:18 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:18 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:18 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:18 -0400
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-03-26 01:32:39 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 962ms (Views: 961.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:40 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:40 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:40 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:40 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:40 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:40 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:40 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:40 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:40 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:40 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:40 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:40 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:40 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-03-26 01:32:40 -0400
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-03-26 01:32:41 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:41 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:41 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:41 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:41 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:41 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:41 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:32:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:41 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:41 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:41 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:41 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:41 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:32:41 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-03-26 01:32:41 -0400
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-03-26 01:33:17 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:17 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:17 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:17 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:17 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:17 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:17 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:17 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:17 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:17 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:17 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:17 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:17 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-03-26 01:33:18 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:33:28 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:33:28 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:29 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:29 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:29 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:29 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:29 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:29 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:29 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:29 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:29 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:29 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:29 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:29 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:29 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:29 -0400
+
+
+Started GET "/assets/Badminton-6.jpg" for 127.0.0.1 at 2014-03-26 01:33:29 -0400
+
+
+Started GET "/results" for 127.0.0.1 at 2014-03-26 01:33:32 -0400
+Processing by StaticPagesController#results as HTML
+  Rendered static_pages/results.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/results" for 127.0.0.1 at 2014-03-26 01:33:32 -0400
+Processing by StaticPagesController#results as HTML
+  Rendered static_pages/results.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:32 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:32 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:32 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:32 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:32 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:32 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:32 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:32 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:32 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:32 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:32 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:32 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-03-26 01:33:32 -0400
+
+
+Started GET "/results" for 127.0.0.1 at 2014-03-26 01:33:36 -0400
+Processing by StaticPagesController#results as HTML
+  Rendered static_pages/results.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:36 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:36 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:36 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:36 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:36 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:36 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:33:36 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:36 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:36 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:36 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:36 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:36 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:36 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:36 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:36 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:33:36 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-03-26 01:33:37 -0400
+
+
+Started GET "/results" for 127.0.0.1 at 2014-03-26 01:34:04 -0400
+Processing by StaticPagesController#results as HTML
+  Rendered static_pages/results.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:04 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:04 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:04 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:04 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:04 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:04 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:04 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:04 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:04 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:04 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:04 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:04 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:04 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:04 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:04 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:04 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-03-26 01:34:04 -0400
+
+
+Started GET "/results" for 127.0.0.1 at 2014-03-26 01:34:43 -0400
+Processing by StaticPagesController#results as HTML
+  Rendered static_pages/results.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:43 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:43 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:43 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:43 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:43 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:43 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:43 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:43 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:43 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:43 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:43 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:43 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:43 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:43 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:43 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:43 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-03-26 01:34:43 -0400
+
+
+Started GET "/results" for 127.0.0.1 at 2014-03-26 01:34:51 -0400
+Processing by StaticPagesController#results as HTML
+  Rendered static_pages/results.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:51 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:51 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:51 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:51 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:51 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:51 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:34:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:51 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:51 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:51 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:51 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:51 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:34:51 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-03-26 01:34:51 -0400
+
+
+Started GET "/results" for 127.0.0.1 at 2014-03-26 01:35:27 -0400
+Processing by StaticPagesController#results as HTML
+  Rendered static_pages/results.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:35:27 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:35:27 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:35:27 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:35:27 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:35:27 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:35:27 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:35:27 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:35:27 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:35:27 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:35:27 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:35:27 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:35:27 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:35:27 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:35:27 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:35:27 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:35:27 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-03-26 01:35:27 -0400
+
+
+Started GET "/results" for 127.0.0.1 at 2014-03-26 01:35:39 -0400
+Processing by StaticPagesController#results as HTML
+  Rendered static_pages/results.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:35:39 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:35:39 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:35:39 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:35:39 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:35:39 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:35:39 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:35:39 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:35:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:35:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:35:39 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:35:39 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:35:39 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:35:39 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:35:39 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:35:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:35:39 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-03-26 01:35:39 -0400
+
+
+Started GET "/results" for 127.0.0.1 at 2014-03-26 01:36:17 -0400
+Processing by StaticPagesController#results as HTML
+  Rendered static_pages/results.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:36:17 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:36:17 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:36:17 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:36:17 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:36:17 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:36:17 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:36:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:36:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:36:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:36:17 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:36:17 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:36:17 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:36:17 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:36:17 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:36:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:36:17 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-03-26 01:36:17 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:37:03 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:37:03 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:04 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:04 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:04 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:04 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:04 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:04 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:04 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:04 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:04 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:04 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:04 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:04 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:04 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:04 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:04 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:04 -0400
+
+
+Started GET "/assets/Badminton-6.jpg" for 127.0.0.1 at 2014-03-26 01:37:04 -0400
+
+
+Started GET "/about" for 127.0.0.1 at 2014-03-26 01:37:05 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2014-03-26 01:37:05 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:05 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:05 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:05 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:05 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:05 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:05 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:05 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:05 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:05 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:05 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:05 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:05 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:05 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:05 -0400
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-03-26 01:37:07 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-03-26 01:37:07 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:07 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:07 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:07 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:07 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:07 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:07 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:07 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:07 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:07 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:07 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:07 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:07 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-03-26 01:37:07 -0400
+
+
+Started GET "/gallery" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+Processing by StaticPagesController#gallery as HTML
+  Rendered static_pages/gallery.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+Processing by StaticPagesController#gallery as HTML
+  Rendered static_pages/gallery.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/assets/gallery/Badminton-11.jpg" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/assets/gallery/Badminton-14.jpg" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/assets/gallery/Badminton-6.jpg" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/assets/gallery/Badminton-7.jpg" for 127.0.0.1 at 2014-03-26 01:37:17 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:38:58 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (couldn't find file 'rails_bootstrap_forms'
+  (in /Users/sameer/Documents/projects/school/wmbadminton/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag "application", media: "all",
+    6:                                            "data-turbolinks-track" => true %>
+    7:     <%= stylesheet_link_tag params[:controller] %>
+    8:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__621401951070993830_70102547196280'
+
+
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:38:58 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (couldn't find file 'rails_bootstrap_forms'
+  (in /Users/sameer/Documents/projects/school/wmbadminton/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag "application", media: "all",
+    6:                                            "data-turbolinks-track" => true %>
+    7:     <%= stylesheet_link_tag params[:controller] %>
+    8:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__621401951070993830_70102547196280'
+
+
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:39:26 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 39ms
+
+ActionView::Template::Error (couldn't find file 'rails_bootstrap_forms'
+  (in /Users/sameer/Documents/projects/school/wmbadminton/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag "application", media: "all",
+    6:                                            "data-turbolinks-track" => true %>
+    7:     <%= stylesheet_link_tag params[:controller] %>
+    8:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2498768960035915022_70170465942920'
+
+
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:39:28 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (couldn't find file 'rails_bootstrap_forms'
+  (in /Users/sameer/Documents/projects/school/wmbadminton/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag "application", media: "all",
+    6:                                            "data-turbolinks-track" => true %>
+    7:     <%= stylesheet_link_tag params[:controller] %>
+    8:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2498768960035915022_70170465942920'
+
+
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:40:29 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 44ms
+
+ActionView::Template::Error (couldn't find file 'rails_bootstrap_forms'
+  (in /Users/sameer/Documents/projects/school/wmbadminton/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag "application", media: "all",
+    6:                                            "data-turbolinks-track" => true %>
+    7:     <%= stylesheet_link_tag params[:controller] %>
+    8:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1770448305841787745_70294273358040'
+
+
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:44:34 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 40ms
+
+ActionView::Template::Error (couldn't find file 'rails_bootstrap_forms'
+  (in /Users/sameer/Documents/projects/school/wmbadminton/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag "application", media: "all",
+    6:                                            "data-turbolinks-track" => true %>
+    7:     <%= stylesheet_link_tag params[:controller] %>
+    8:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3519775977404224322_70251579801180'
+
+
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:44:36 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (couldn't find file 'rails_bootstrap_forms'
+  (in /Users/sameer/Documents/projects/school/wmbadminton/app/assets/stylesheets/application.css:14)):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag "application", media: "all",
+    6:                                            "data-turbolinks-track" => true %>
+    7:     <%= stylesheet_link_tag params[:controller] %>
+    8:     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3519775977404224322_70251579801180'
+
+
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/sameer/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-26 01:44:54 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 91ms (Views: 77.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-26 01:44:55 -0400
+
+
+Started GET "/assets/blueimp-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:44:55 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.css?body=1" for 127.0.0.1 at 2014-03-26 01:44:55 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-03-26 01:44:55 -0400
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2014-03-26 01:44:55 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-26 01:44:55 -0400
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-03-26 01:44:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-26 01:44:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-26 01:44:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-26 01:44:55 -0400
+
+
+Started GET "/assets/jquery.blueimp-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:44:55 -0400
+
+
+Started GET "/assets/bootstrap-image-gallery.min.js?body=1" for 127.0.0.1 at 2014-03-26 01:44:55 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-26 01:44:55 -0400
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-03-26 01:44:55 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-26 01:44:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-26 01:44:55 -0400
+
+
+Started GET "/assets/Badminton-6.jpg" for 127.0.0.1 at 2014-03-26 01:44:55 -0400

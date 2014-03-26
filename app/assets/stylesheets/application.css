@@ -9,10 +9,6 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require leaflet
- *= require leaflet.ie
- *= require twitter/bootstrap
- *= require font-awesome
  *= require blueimp-gallery.min.css
  *= require bootstrap-image-gallery.min.css
  *= require_tree .

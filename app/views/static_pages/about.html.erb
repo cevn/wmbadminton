@@ -11,47 +11,4 @@
     </ul>
     <h4 class="spacer"> Location: Adair Hall</h4> 
   </div> 
-
-  <div class="col-md-8 col-md-offset-1" id="map">
-  </div> 
 </div>
-</div>
-
-</div> 
-
-<script> 
-var defaulticon = L.icon({
-
-    iconUrl:   '<%= asset_path('marker-icon.png') %>',
-    shadowUrl: '<%= asset_path('marker-shadow.png') %>',
-
-    //iconSize:     [38, 95], // size of the icon
-    //shadowSize:   [50, 64], // size of the shadow
-    iconAnchor:   [0, 32], // point of the icon which will correspond to marker's location
-    //shadowAnchor: [4, 62],  // the same for the shadow
-    //popupAnchor:  [-10, -10] // point from which the popup should open relative to the iconAnchor
-});
-  var lat = 37.2686;
-  var lon = -76.7183; 
-
-  var map = L.map('map', {
-      center: [lat, lon],
-      zoom: 17
-  });
-
-  L.tileLayer('http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png', {
-    key: '0b9e3b46e10f417182b04a610be00f88',
-    styleId: 997
-  }).addTo(map);
-
-L.marker([lat, lon], {icon: defaulticon}).addTo(map);
-</script>
-<script> 
-var map = L.map('map').setView([37.2711, -76.7075], 15);
-L.tileLayer('http://{s}.tile.cloudmade.com/0b9e3b46e10f417182b04a610be00f88/997/256/{z}/{x}/{y}.png', {
-        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
-            maxZoom: 18
-            }).addTo(map);
-
-// add a marker in the given location, attach some popup content to it and open the popup
-</script>
