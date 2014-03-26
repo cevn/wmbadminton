@@ -14,7 +14,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'will_paginate' 
 gem 'will_paginate-bootstrap'
 gem 'leaflet-rails' 
-gem 'bootstrap_forms'
+gem 'simple_form', github: 'zlx/simple_form_bootstrap3'
 
 
 gem 'sass-rails'
